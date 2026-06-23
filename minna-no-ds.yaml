@@ -109,7 +109,7 @@ lessons: [
 lesson-01:
   - id: [1, 1]
     edition: [1, 2]
-    kanji: ~
+    kanji: "私"
     kana: "わたし"
     romaji: "watashi"
     meaning: {
@@ -522,7 +522,7 @@ lesson-01:
 
   - id: [1, 42]
     edition: [1]
-    kanji: ~
+    kanji: "私たち"
     kana: "わたしたち"
     romaji: "watashitachi"
     meaning: {
@@ -754,7 +754,7 @@ lesson-02:
 
   - id: [2, 18]
     edition: [1, 2]
-    kanji: ~
+    kanji: "鍵"
     kana: "かぎ"
     romaji: "kagi"
     meaning: {
@@ -864,7 +864,7 @@ lesson-02:
 
   - id: [2, 29]
     edition: [1, 2]
-    kanji: ~
+    kanji: "椅子"
     kana: "いす"
     romaji: "isu"
     meaning: {
@@ -1852,7 +1852,7 @@ lesson-04:
 
   - id: [4, 23]
     edition: [1, 2]
-    kanji: ~
+    kanji: "一昨日"
     kana: "おととい"
     romaji: "ototoi"
     meaning: {
@@ -1862,7 +1862,7 @@ lesson-04:
 
   - id: [4, 24]
     edition: [1, 2]
-    kanji: ~
+    kanji: "昨日"
     kana: "きのう"
     romaji: "kinō"
     meaning: {
@@ -1872,7 +1872,7 @@ lesson-04:
 
   - id: [4, 25]
     edition: [1, 2]
-    kanji: ~
+    kanji: "今日"
     kana: "きょう"
     romaji: "kyō"
     meaning: {
@@ -1882,7 +1882,7 @@ lesson-04:
 
   - id: [4, 26]
     edition: [1, 2]
-    kanji: ~
+    kanji: "明日"
     kana: "あした"
     romaji: "ashita"
     meaning: {
@@ -1892,7 +1892,7 @@ lesson-04:
 
   - id: [4, 27]
     edition: [1, 2]
-    kanji: ~
+    kanji: "明後日"
     kana: "あさって"
     romaji: "asatte"
     meaning: {
@@ -1902,7 +1902,7 @@ lesson-04:
 
   - id: [4, 28]
     edition: [1, 2]
-    kanji: ~
+    kanji: "今朝"
     kana: "けさ"
     romaji: "kesa"
     meaning: {
@@ -2596,7 +2596,7 @@ lesson-05:
 
   - id: [5, 29]
     edition: [1, 2]
-    kanji: ~
+    kanji: "今年"
     kana: "ことし"
     romaji: "kotoshi"
     meaning: {
@@ -3060,7 +3060,7 @@ lesson-06:
 
   - id: [6, 12]
     edition: [1, 2]
-    kanji: ~
+    kanji: "ご飯"
     kana: "ごはん"
     romaji: "gohan"
     meaning: {
@@ -3070,7 +3070,7 @@ lesson-06:
 
   - id: [6, 13]
     edition: [1, 2]
-    kanji: "朝ごはん"
+    kanji: "朝ご飯"
     kana: "あさごはん"
     romaji: "asagohan"
     meaning: {
@@ -3080,7 +3080,7 @@ lesson-06:
 
   - id: [6, 14]
     edition: [1, 2]
-    kanji: "昼ごはん"
+    kanji: "昼ご飯"
     kana: "ひるごはん"
     romaji: "hirugohan"
     meaning: {
@@ -3090,7 +3090,7 @@ lesson-06:
 
   - id: [6, 15]
     edition: [1, 2]
-    kanji: "晩ごはん"
+    kanji: "晩ご飯"
     kana: "ばんごはん"
     romaji: "bangohan"
     meaning: {
@@ -3350,7 +3350,7 @@ lesson-06:
 
   - id: [6, 41]
     edition: [1, 2]
-    kanji: ~
+    kanji: "一緒に"
     kana: "いっしょに"
     romaji: "isshoni"
     meaning: {
@@ -3624,7 +3624,7 @@ lesson-07:
 
   - id: [7, 9]
     edition: [1, 2]
-    kanji: "かけます［電話を～］"
+    kanji: "掛けます［電話を～］"
     kana: "かけます［でんわを～］"
     romaji: "kakemasu [denwawo~]"
     meaning: {
@@ -3644,7 +3644,7 @@ lesson-07:
 
   - id: [7, 11]
     edition: [1, 2]
-    kanji: ~
+    kanji: "箸"
     kana: "はし"
     romaji: "hashi"
     meaning: {
@@ -4308,7 +4308,7 @@ lesson-08:
 
   - id: [8, 25]
     edition: [1, 2]
-    kanji: ~
+    kanji: "面白い"
     kana: "おもしろい"
     romaji: "omoshiroi"
     meaning: {
@@ -4722,7 +4722,7 @@ lesson-08:
 lesson-09:
   - id: [9, 1]
     edition: [1, 2]
-    kanji: ~
+    kanji: "分かります"
     kana: "わかります"
     romaji: "wakarimasu"
     meaning: {
@@ -5627,7 +5627,7 @@ lesson-10:
 
   - id: [10, 35]
     edition: [1, 2]
-    kanji: ~
+    kanji: "後ろ"
     kana: "うしろ"
     romaji: "ushiro"
     meaning: {
@@ -5881,7 +5881,7 @@ lesson-11:
 
   - id: [11, 3]
     edition: [1, 2]
-    kanji: ~
+    kanji: "掛かります"
     kana: "かかります"
     romaji: "kakarimasu"
     meaning: {
@@ -5901,7 +5901,7 @@ lesson-11:
 
   - id: [11, 5]
     edition: [1, 2]
-    kanji: "１つ"
+    kanji: "一つ"
     kana: "ひとつ"
     romaji: "hitotsu"
     meaning: {
@@ -5911,7 +5911,7 @@ lesson-11:
 
   - id: [11, 6]
     edition: [1, 2]
-    kanji: "２つ"
+    kanji: "二つ"
     kana: "ふたつ"
     romaji: "futatsu"
     meaning: {
@@ -5921,7 +5921,7 @@ lesson-11:
 
   - id: [11, 7]
     edition: [1, 2]
-    kanji: "３つ"
+    kanji: "三つ"
     kana: "みっつ"
     romaji: "mittsu"
     meaning: {
@@ -5931,7 +5931,7 @@ lesson-11:
 
   - id: [11, 8]
     edition: [1, 2]
-    kanji: "４つ"
+    kanji: "四つ"
     kana: "よっつ"
     romaji: "yottsu"
     meaning: {
@@ -5941,7 +5941,7 @@ lesson-11:
 
   - id: [11, 9]
     edition: [1, 2]
-    kanji: "５つ"
+    kanji: "五つ"
     kana: "いつつ"
     romaji: "itsutsu"
     meaning: {
@@ -5951,7 +5951,7 @@ lesson-11:
 
   - id: [11, 10]
     edition: [1, 2]
-    kanji: "６つ"
+    kanji: "六つ"
     kana: "むっつ"
     romaji: "muttsu"
     meaning: {
@@ -5961,7 +5961,7 @@ lesson-11:
 
   - id: [11, 11]
     edition: [1, 2]
-    kanji: "７つ"
+    kanji: "七つ"
     kana: "ななつ"
     romaji: "nanatsu"
     meaning: {
@@ -5971,7 +5971,7 @@ lesson-11:
 
   - id: [11, 12]
     edition: [1, 2]
-    kanji: "８つ"
+    kanji: "八つ"
     kana: "やっつ"
     romaji: "yattsu"
     meaning: {
@@ -5981,7 +5981,7 @@ lesson-11:
 
   - id: [11, 13]
     edition: [1, 2]
-    kanji: "９つ"
+    kanji: "九つ"
     kana: "ここのつ"
     romaji: "kokonotsu"
     meaning: {
@@ -5991,7 +5991,7 @@ lesson-11:
 
   - id: [11, 14]
     edition: [1, 2]
-    kanji: "１０"
+    kanji: "十"
     kana: "とお"
     romaji: "too"
     meaning: {
@@ -6845,7 +6845,7 @@ lesson-12:
 
   - id: [12, 33]
     edition: [1, 2]
-    kanji: ~
+    kanji: "天ぷら"
     kana: "てんぷら"
     romaji: "tenpura"
     meaning: {
@@ -6865,7 +6865,7 @@ lesson-12:
 
   - id: [12, 35]
     edition: [2]
-    kanji: "とり肉"
+    kanji: "鶏肉"
     kana: "とりにく"
     romaji: "toriniku"
     meaning: {
@@ -6935,7 +6935,7 @@ lesson-12:
 
   - id: [12, 42]
     edition: [2]
-    kanji: ~
+    kanji: "一番"
     kana: "いちばん"
     romaji: "ichiban"
     meaning: {
@@ -7319,7 +7319,7 @@ lesson-13:
 
   - id: [13, 23]
     edition: [1, 2]
-    kanji: ~
+    kanji: "喉が 渇きます"
     kana: "のどが かわきます"
     romaji: "nodoga kawakimasu"
     meaning: {
@@ -7329,7 +7329,7 @@ lesson-13:
 
   - id: [13, 24]
     edition: [1, 2]
-    kanji: ~
+    kanji: "お腹が 空きます"
     kana: "おなかが すきます"
     romaji: "onakaga sukimasu"
     meaning: {
@@ -7369,7 +7369,7 @@ lesson-13:
 
   - id: [13, 28]
     edition: [1, 2]
-    kanji: "牛どん"
+    kanji: "牛丼"
     kana: "ぎゅうどん"
     romaji: "gyuudon"
     meaning: {
@@ -7553,7 +7553,7 @@ lesson-13:
 lesson-14:
   - id: [14, 1]
     edition: [1, 2]
-    kanji: ~
+    kanji: "点けます"
     kana: "つけます"
     romaji: "tsukemasu"
     meaning: {
@@ -7923,7 +7923,7 @@ lesson-14:
 
   - id: [14, 38]
     edition: [1, 2]
-    kanji: ~
+    kanji: "後で"
     kana: "あとで"
     romaji: "atode"
     meaning: {
@@ -8681,7 +8681,7 @@ lesson-16:
 
   - id: [16, 29]
     edition: [1, 2]
-    kanji: ~
+    kanji: "お腹"
     kana: "おなか"
     romaji: "onaka"
     meaning: {
@@ -8983,7 +8983,7 @@ lesson-16:
 
   - id: [16, 59]
     edition: [1]
-    kanji: "やめます［会社を～］"
+    kanji: "辞めます［会社を～］"
     kana: "やめます［かいしゃを～］"
     romaji: "yamemasu [kaishawo~]"
     meaning: {
@@ -9075,7 +9075,7 @@ lesson-17:
 
   - id: [17, 3]
     edition: [1, 2]
-    kanji: ~
+    kanji: "無くします"
     kana: "なくします"
     romaji: "nakushimasu"
     meaning: {
@@ -9185,7 +9185,7 @@ lesson-17:
 
   - id: [17, 14]
     edition: [1, 2]
-    kanji: "入ります［おふろに～］"
+    kanji: "入ります［お風呂に～］"
     kana: "はいります［おふろに～］"
     romaji: "hairimasu [ofuroni~]"
     meaning: {
@@ -9375,7 +9375,7 @@ lesson-17:
 
   - id: [17, 33]
     edition: [1, 2]
-    kanji: ~
+    kanji: "風邪"
     kana: "かぜ"
     romaji: "kaze"
     meaning: {
@@ -9449,7 +9449,7 @@ lesson-17:
 lesson-18:
   - id: [18, 1]
     edition: [1, 2]
-    kanji: ~
+    kanji: "出来ます"
     kana: "できます"
     romaji: "dekimasu"
     meaning: {
@@ -9709,7 +9709,7 @@ lesson-18:
 
   - id: [18, 27]
     edition: [1, 2]
-    kanji: ~
+    kanji: "是非"
     kana: "ぜひ"
     romaji: "zehi"
     meaning: {
@@ -10198,7 +10198,7 @@ lesson-20:
 
   - id: [20, 9]
     edition: [1, 2]
-    kanji: ~
+    kanji: "言葉"
     kana: "ことば"
     romaji: "kotoba"
     meaning: {
@@ -10492,7 +10492,7 @@ lesson-21:
 
   - id: [21, 8]
     edition: [2]
-    kanji: "やめます［会社を～］"
+    kanji: "辞めます［会社を～］"
     kana: "やめます［かいしゃを～］"
     romaji: "yamemasu [kaishawo~]"
     meaning: {
@@ -10502,7 +10502,7 @@ lesson-21:
 
   - id: [21, 9]
     edition: [2]
-    kanji: "気を つけます"
+    kanji: "気を 付けます"
     kana: "きを つけます"
     romaji: "kiwo tsukemasu"
     meaning: {
@@ -10552,7 +10552,7 @@ lesson-21:
 
   - id: [21, 14]
     edition: [2]
-    kanji: ~
+    kanji: "本当"
     kana: "ほんとう"
     romaji: "hontō"
     meaning: {
@@ -10562,7 +10562,7 @@ lesson-21:
 
   - id: [21, 15]
     edition: [2]
-    kanji: ~
+    kanji: "嘘"
     kana: "うそ"
     romaji: "uso"
     meaning: {
@@ -10732,7 +10732,7 @@ lesson-21:
 
   - id: [21, 32]
     edition: [1, 2]
-    kanji: ~
+    kanji: "多分"
     kana: "たぶん"
     romaji: "tabun"
     meaning: {
@@ -10752,7 +10752,7 @@ lesson-21:
 
   - id: [21, 34]
     edition: [1, 2]
-    kanji: ~
+    kanji: "本当に"
     kana: "ほんとうに"
     romaji: "hontōni"
     meaning: {
@@ -11014,7 +11014,7 @@ lesson-21:
 
   - id: [21, 60]
     edition: [1]
-    kanji: ~
+    kanji: "無駄"
     kana: "むだ"
     romaji: "muda"
     meaning: {
@@ -11076,7 +11076,7 @@ lesson-22:
 
   - id: [22, 2]
     edition: [1, 2]
-    kanji: ~
+    kanji: "履きます"
     kana: "はきます"
     romaji: "hakimasu"
     meaning: {
@@ -11086,7 +11086,7 @@ lesson-22:
 
   - id: [22, 3]
     edition: [1, 2]
-    kanji: ~
+    kanji: "被ります"
     kana: "かぶります"
     romaji: "kaburimasu"
     meaning: {
@@ -11096,7 +11096,7 @@ lesson-22:
 
   - id: [22, 4]
     edition: [1, 2]
-    kanji: "かけます［眼鏡を～］"
+    kanji: "掛けます［眼鏡を～］"
     kana: "かけます［めがねを～］"
     romaji: "kakemasu [meganewo~]"
     meaning: {
@@ -11126,7 +11126,7 @@ lesson-22:
 
   - id: [22, 7]
     edition: [2]
-    kanji: ~
+    kanji: "私たち"
     kana: "わたしたち"
     romaji: "watashitachi"
     meaning: {
@@ -11713,7 +11713,7 @@ lesson-23:
 
   - id: [23, 30]
     edition: [1]
-    kanji: "気を つけます［車に～］"
+    kanji: "気を 付けます［車に～］"
     kana: "きを つけます［くるまに～］"
     romaji: "kiwo tsukemasu [kurumani~]"
     meaning: {
@@ -11965,7 +11965,7 @@ lesson-24:
 
   - id: [24, 17]
     edition: [1, 2]
-    kanji: ~
+    kanji: "他に"
     kana: "ほかに"
     romaji: "hokani"
     meaning: {
@@ -12494,7 +12494,7 @@ lesson-26:
 
   - id: [26, 25]
     edition: [1, 2]
-    kanji: ~
+    kanji: "誰でも"
     kana: "だれでも"
     romaji: "daredemo"
     meaning: {
@@ -12919,7 +12919,7 @@ lesson-27:
 
   - id: [27, 5]
     edition: [1, 2]
-    kanji: "できます［道が～］"
+    kanji: "出来ます［道が～］"
     kana: "できます［みちが～］"
     romaji: "dekimasu [michiga~]"
     meaning: {
@@ -13159,7 +13159,7 @@ lesson-27:
 
   - id: [27, 29]
     edition: [1, 2]
-    kanji: ~
+    kanji: "素晴らしい"
     kana: "すばらしい"
     romaji: "subarashii"
     meaning: {
@@ -13483,7 +13483,7 @@ lesson-28:
 
   - id: [28, 3]
     edition: [1, 2]
-    kanji: ~
+    kanji: "噛みます"
     kana: "かみます"
     romaji: "kamimasu"
     meaning: {
@@ -14087,7 +14087,7 @@ lesson-29:
 
   - id: [29, 3]
     edition: [1, 2]
-    kanji: "つきます［電気が～］"
+    kanji: "点きます［電気が～］"
     kana: "つきます［でんきが～］"
     romaji: "tsukimasu [denkiga~]"
     meaning: {
@@ -14107,7 +14107,7 @@ lesson-29:
 
   - id: [29, 5]
     edition: [1, 2]
-    kanji: "壊れます［いすが～］"
+    kanji: "壊れます［椅子が～］"
     kana: "こわれます［いすが～］"
     romaji: "kowaremasu [isuga~]"
     meaning: {
@@ -14188,7 +14188,7 @@ lesson-29:
 
   - id: [29, 13]
     edition: [1, 2]
-    kanji: ~
+    kanji: "間違えます"
     kana: "まちがえます"
     romaji: "machigaemasu"
     meaning: {
@@ -14208,7 +14208,7 @@ lesson-29:
 
   - id: [29, 15]
     edition: [1, 2]
-    kanji: "掛かります［かぎが～］"
+    kanji: "掛かります［鍵が～］"
     kana: "かかります［かぎが～］"
     romaji: "kakarimasu [kagiga~]"
     meaning: {
@@ -14218,7 +14218,7 @@ lesson-29:
 
   - id: [29, 16]
     edition: [2]
-    kanji: ~
+    kanji: "拭きます"
     kana: "ふきます"
     romaji: "fukimasu"
     meaning: {
@@ -14601,7 +14601,7 @@ lesson-29:
 
   - id: [29, 54]
     edition: [1]
-    kanji: "すきます［道が～］"
+    kanji: "空きます［道が～］"
     kana: "すきます［みちが～］"
     romaji: "sukimasu [michiga~]"
     meaning: {
@@ -14663,7 +14663,7 @@ lesson-29:
 lesson-30:
   - id: [30, 1]
     edition: [1, 2]
-    kanji: ~
+    kanji: "貼ります"
     kana: "はります"
     romaji: "harimasu"
     meaning: {
@@ -15103,7 +15103,7 @@ lesson-30:
 
   - id: [30, 45]
     edition: [1, 2]
-    kanji: ~
+    kanji: "嬉しい"
     kana: "うれしい"
     romaji: "ureshii"
     meaning: {
@@ -15819,7 +15819,7 @@ lesson-31:
 
   - id: [31, 53]
     edition: [1]
-    kanji: ~
+    kanji: "素晴らしさ"
     kana: "すばらしさ"
     romaji: "subarashisa"
     meaning: {
@@ -15829,7 +15829,7 @@ lesson-31:
 
   - id: [31, 54]
     edition: [1]
-    kanji: "気が つきます"
+    kanji: "気が 付きます"
     kana: "きが つきます"
     romaji: "kiga tsukimasu"
     meaning: {
@@ -15881,7 +15881,7 @@ lesson-32:
 
   - id: [32, 5]
     edition: [1, 2]
-    kanji: "やみます［雨が～］"
+    kanji: "止みます［雨が～］"
     kana: "やみます［あめが～］"
     romaji: "yamimasu [amega~]"
     meaning: {
@@ -15951,7 +15951,7 @@ lesson-32:
 
   - id: [32, 12]
     edition: [2]
-    kanji: "すきます［道が～］"
+    kanji: "空きます［道が～］"
     kana: "すきます［みちが～］"
     romaji: "sukimasu [michiga~]"
     meaning: {
@@ -16041,7 +16041,7 @@ lesson-32:
 
   - id: [32, 21]
     edition: [1, 2]
-    kanji: ~
+    kanji: "怪我"
     kana: "けが"
     romaji: "kega"
     meaning: {
@@ -16051,7 +16051,7 @@ lesson-32:
 
   - id: [32, 22]
     edition: [1, 2]
-    kanji: ~
+    kanji: "咳"
     kana: "せき"
     romaji: "seki"
     meaning: {
@@ -16211,7 +16211,7 @@ lesson-32:
 
   - id: [32, 38]
     edition: [1, 2]
-    kanji: ~
+    kanji: "前"
     kana: "まえ"
     romaji: "mae"
     meaning: {
@@ -16545,7 +16545,7 @@ lesson-33:
 
   - id: [33, 3]
     edition: [1, 2]
-    kanji: ~
+    kanji: "諦めます"
     kana: "あきらめます"
     romaji: "akiramemasu"
     meaning: {
@@ -16995,7 +16995,7 @@ lesson-33:
 
   - id: [33, 48]
     edition: [2]
-    kanji: ~
+    kanji: "挨拶"
     kana: "あいさつ"
     romaji: "aisatsu"
     meaning: {
@@ -17329,7 +17329,7 @@ lesson-34:
 
   - id: [34, 4]
     edition: [1, 2]
-    kanji: "気が つきます［忘れ物に～］"
+    kanji: "気が 付きます［忘れ物に～］"
     kana: "きが つきます［わすれものに～］"
     romaji: "kiga tsukimasu [wasuremononi~]"
     meaning: {
@@ -17349,7 +17349,7 @@ lesson-34:
 
   - id: [34, 6]
     edition: [1, 2]
-    kanji: "見つかります［かぎが～］"
+    kanji: "見つかります［鍵が～］"
     kana: "みつかります［かぎが～］"
     romaji: "mitsukarimasu [kagiga~]"
     meaning: {
@@ -17369,7 +17369,7 @@ lesson-34:
 
   - id: [34, 8]
     edition: [2]
-    kanji: "さします［傘を～］"
+    kanji: "差します［傘を～］"
     kana: "さします［かさを～］"
     romaji: "sashimasu [kasawo~]"
     meaning: {
@@ -17509,7 +17509,7 @@ lesson-34:
 
   - id: [34, 22]
     edition: [1, 2]
-    kanji: ~
+    kanji: "醤油"
     kana: "しょうゆ"
     romaji: "shōyu"
     meaning: {
@@ -17549,7 +17549,7 @@ lesson-34:
 
   - id: [34, 26]
     edition: [1, 2]
-    kanji: ~
+    kanji: "昨夜"
     kana: "ゆうべ"
     romaji: "yūbe"
     meaning: {
@@ -17579,7 +17579,7 @@ lesson-34:
 
   - id: [34, 29]
     edition: [1, 2]
-    kanji: "お茶を たてます"
+    kanji: "お茶を 点てます"
     kana: "おちゃを たてます"
     romaji: "ochawo tatemasu"
     meaning: {
@@ -17629,7 +17629,7 @@ lesson-34:
 
   - id: [34, 34]
     edition: [1, 2]
-    kanji: "親子どんぶり"
+    kanji: "親子丼"
     kana: "おやこどんぶり"
     romaji: "oyakodonburi"
     meaning: {
@@ -17679,7 +17679,7 @@ lesson-34:
 
   - id: [34, 39]
     edition: [1, 2]
-    kanji: ~
+    kanji: "玉ねぎ"
     kana: "たまねぎ"
     romaji: "tamanegi"
     meaning: {
@@ -17719,7 +17719,7 @@ lesson-34:
 
   - id: [34, 43]
     edition: [1, 2]
-    kanji: ~
+    kanji: "鍋"
     kana: "なべ"
     romaji: "nabe"
     meaning: {
@@ -17739,7 +17739,7 @@ lesson-34:
 
   - id: [34, 45]
     edition: [1, 2]
-    kanji: "火に かけます"
+    kanji: "火に 掛けます"
     kana: "ひに かけます"
     romaji: "hini kakemasu"
     meaning: {
@@ -17769,7 +17769,7 @@ lesson-34:
 
   - id: [34, 48]
     edition: [1, 2]
-    kanji: ~
+    kanji: "丼"
     kana: "どんぶり"
     romaji: "donburi"
     meaning: {
@@ -17779,7 +17779,7 @@ lesson-34:
 
   - id: [34, 49]
     edition: [2]
-    kanji: ~
+    kanji: "経ちます"
     kana: "たちます"
     romaji: "tachimasu"
     meaning: {
@@ -17861,7 +17861,7 @@ lesson-34:
 
   - id: [34, 57]
     edition: [1]
-    kanji: "とり肉"
+    kanji: "鶏肉"
     kana: "とりにく"
     romaji: "toriniku"
     meaning: {
@@ -18445,7 +18445,7 @@ lesson-35:
 
   - id: [35, 58]
     edition: [1]
-    kanji: "かかります［電話が～］"
+    kanji: "掛かります［電話が～］"
     kana: "かかります［でんわが～］"
     romaji: "kakarimasu [denwaga~]"
     meaning: {
@@ -18525,7 +18525,7 @@ lesson-35:
 
   - id: [35, 66]
     edition: [1]
-    kanji: ~
+    kanji: "蓋"
     kana: "ふた"
     romaji: "futa"
     meaning: {
@@ -18587,7 +18587,7 @@ lesson-35:
 lesson-36:
   - id: [36, 1]
     edition: [2]
-    kanji: "あいます［事故に～］"
+    kanji: "遭います［事故に～］"
     kana: "あいます［じこに～］"
     romaji: "aimasu [jikoni~]"
     meaning: {
@@ -18717,7 +18717,7 @@ lesson-36:
 
   - id: [36, 14]
     edition: [1, 2]
-    kanji: ~
+    kanji: "この頃"
     kana: "このごろ"
     romaji: "konogoro"
     meaning: {
@@ -19029,7 +19029,7 @@ lesson-36:
 
   - id: [36, 45]
     edition: [1]
-    kanji: ~
+    kanji: "痩せます"
     kana: "やせます"
     romaji: "yasemasu"
     meaning: {
@@ -19201,7 +19201,7 @@ lesson-37:
 
   - id: [37, 2]
     edition: [1, 2]
-    kanji: ~
+    kanji: "叱ります"
     kana: "しかります"
     romaji: "shikarimasu"
     meaning: {
@@ -19251,7 +19251,7 @@ lesson-37:
 
   - id: [37, 7]
     edition: [1, 2]
-    kanji: ~
+    kanji: "盗ります"
     kana: "とります"
     romaji: "torimasu"
     meaning: {
@@ -19581,7 +19581,7 @@ lesson-37:
 
   - id: [37, 40]
     edition: [2]
-    kanji: "焼けます［うちが～］"
+    kanji: "焼けます［家が～］"
     kana: "やけます［うちが～］"
     romaji: "yakemasu [uchiga~]"
     meaning: {
@@ -20055,7 +20055,7 @@ lesson-38:
 
   - id: [38, 8]
     edition: [1, 2]
-    kanji: "掛けます［かぎを～］"
+    kanji: "掛けます［鍵を～］"
     kana: "かけます［かぎを～］"
     romaji: "kakemasu [kagiwo~]"
     meaning: {
@@ -20245,7 +20245,7 @@ lesson-38:
 
   - id: [38, 27]
     edition: [2]
-    kanji: ~
+    kanji: "一昨年"
     kana: "おととし"
     romaji: "ototoshi"
     meaning: {
@@ -20386,7 +20386,7 @@ lesson-38:
 
   - id: [38, 41]
     edition: [1, 2]
-    kanji: "押します［はんこを～］"
+    kanji: "押します［判子を～］"
     kana: "おします［はんこを～］"
     romaji: "oshimasu [hankowo~]"
     meaning: {
@@ -20476,7 +20476,7 @@ lesson-38:
 
   - id: [38, 50]
     edition: [1, 2]
-    kanji: "時間が たちます"
+    kanji: "時間が 経ちます"
     kana: "じかんが たちます"
     romaji: "jikanga tachimasu"
     meaning: {
@@ -20546,7 +20546,7 @@ lesson-38:
 
   - id: [38, 57]
     edition: [2]
-    kanji: ~
+    kanji: "仕方"
     kana: "しかた"
     romaji: "shikata"
     meaning: {
@@ -20568,7 +20568,7 @@ lesson-38:
 
   - id: [38, 59]
     edition: [1]
-    kanji: ~
+    kanji: "嘘"
     kana: "うそ"
     romaji: "uso"
     meaning: {
@@ -20760,7 +20760,7 @@ lesson-39:
 
   - id: [39, 17]
     edition: [1, 2]
-    kanji: ~
+    kanji: "嬉しい"
     kana: "うれしい"
     romaji: "ureshii"
     meaning: {
@@ -20950,7 +20950,7 @@ lesson-39:
 
   - id: [39, 36]
     edition: [1, 2]
-    kanji: ~
+    kanji: "石鹸"
     kana: "せっけん"
     romaji: "sekken"
     meaning: {
@@ -21112,7 +21112,7 @@ lesson-39:
 
   - id: [39, 52]
     edition: [1]
-    kanji: "焼けます［うちが～］"
+    kanji: "焼けます［家が～］"
     kana: "やけます［うちが～］"
     romaji: "yakemasu [uchiga~]"
     meaning: {
@@ -21404,7 +21404,7 @@ lesson-40:
 
   - id: [40, 22]
     edition: [1, 2]
-    kanji: ~
+    kanji: "間違い"
     kana: "まちがい"
     romaji: "machigai"
     meaning: {
@@ -21866,7 +21866,7 @@ lesson-40:
 
   - id: [40, 68]
     edition: [1]
-    kanji: ~
+    kanji: "本当"
     kana: "ほんとう"
     romaji: "hontō"
     meaning: {
@@ -21956,7 +21956,7 @@ lesson-40:
 
   - id: [40, 77]
     edition: [1]
-    kanji: "うわさします"
+    kanji: "噂します"
     kana: "うわさします"
     romaji: "uwasashimasu"
     meaning: {
@@ -22128,7 +22128,7 @@ lesson-41:
 
   - id: [41, 17]
     edition: [1, 2]
-    kanji: ~
+    kanji: "餌"
     kana: "えさ"
     romaji: "esa"
     meaning: {
@@ -22158,7 +22158,7 @@ lesson-41:
 
   - id: [41, 20]
     edition: [1, 2]
-    kanji: "絵はがき"
+    kanji: "絵葉書"
     kana: "えはがき"
     romaji: "ehagaki"
     meaning: {
@@ -22358,7 +22358,7 @@ lesson-41:
 
   - id: [41, 40]
     edition: [2]
-    kanji: ~
+    kanji: "一言"
     kana: "ひとこと"
     romaji: "hitokoto"
     meaning: {
@@ -22459,7 +22459,7 @@ lesson-41:
 
   - id: [41, 50]
     edition: [1, 2]
-    kanji: ~
+    kanji: "亀"
     kana: "かめ"
     romaji: "kame"
     meaning: {
@@ -22611,7 +22611,7 @@ lesson-41:
 
   - id: [41, 65]
     edition: [1]
-    kanji: ~
+    kanji: "一昨年"
     kana: "おととし"
     romaji: "ototoshi"
     meaning: {
@@ -22923,7 +22923,7 @@ lesson-42:
 
   - id: [42, 24]
     edition: [2]
-    kanji: ~
+    kanji: "蓋"
     kana: "ふた"
     romaji: "futa"
     meaning: {
@@ -22973,7 +22973,7 @@ lesson-42:
 
   - id: [42, 29]
     edition: [1, 2]
-    kanji: ~
+    kanji: "風呂敷"
     kana: "ふろしき"
     romaji: "furoshiki"
     meaning: {
@@ -23153,7 +23153,7 @@ lesson-42:
 
   - id: [42, 47]
     edition: [1, 2]
-    kanji: ~
+    kanji: "丼"
     kana: "どんぶり"
     romaji: "donburi"
     meaning: {
@@ -23355,7 +23355,7 @@ lesson-42:
 
   - id: [42, 67]
     edition: [1]
-    kanji: ~
+    kanji: "後"
     kana: "あと"
     romaji: "ato"
     meaning: {
@@ -23385,7 +23385,7 @@ lesson-42:
 
   - id: [42, 70]
     edition: [1]
-    kanji: ~
+    kanji: "鍋"
     kana: "なべ"
     romaji: "nabe"
     meaning: {
@@ -23507,7 +23507,7 @@ lesson-43:
 
   - id: [43, 5]
     edition: [1, 2]
-    kanji: "切れます［ひもが～］"
+    kanji: "切れます［紐が～］"
     kana: "きれます［ひもが～］"
     romaji: "kiremasu [himoga~]"
     meaning: {
@@ -23809,7 +23809,7 @@ lesson-43:
 
   - id: [43, 35]
     edition: [1]
-    kanji: ~
+    kanji: "その上"
     kana: "そのうえ"
     romaji: "sonoue"
     meaning: {
@@ -24627,7 +24627,7 @@ lesson-45:
 
   - id: [45, 30]
     edition: [1, 2]
-    kanji: "あいます［事故に～］"
+    kanji: "遭います［事故に～］"
     kana: "あいます［じこに～］"
     romaji: "aimasu [jikoni~]"
     meaning: {
@@ -25353,7 +25353,7 @@ lesson-47:
 
   - id: [47, 15]
     edition: [1, 2]
-    kanji: ~
+    kanji: "匂い"
     kana: "におい"
     romaji: "nioi"
     meaning: {
@@ -25576,7 +25576,7 @@ lesson-47:
 
   - id: [47, 37]
     edition: [1]
-    kanji: "さします［傘を～］"
+    kanji: "差します［傘を～］"
     kana: "さします［かさを～］"
     romaji: "sashimasu [kasawo~]"
     meaning: {
@@ -25858,7 +25858,7 @@ lesson-48:
 
   - id: [48, 15]
     edition: [1, 2]
-    kanji: ~
+    kanji: "構いません。"
     kana: "かまいません。"
     romaji: "kamaimasen."
     meaning: {
@@ -26100,7 +26100,7 @@ lesson-48:
 
   - id: [48, 39]
     edition: [1]
-    kanji: ~
+    kanji: "捕らえます"
     kana: "とらえます"
     romaji: "toraemasu"
     meaning: {
@@ -26142,7 +26142,7 @@ lesson-49:
 
   - id: [49, 3]
     edition: [1, 2]
-    kanji: "掛けます［いすに～］"
+    kanji: "掛けます［椅子に～］"
     kana: "かけます［いすに～］"
     romaji: "kakemasu [isuni~]"
     meaning: {
@@ -26222,7 +26222,7 @@ lesson-49:
 
   - id: [49, 11]
     edition: [1, 2]
-    kanji: ~
+    kanji: "挨拶"
     kana: "あいさつ"
     romaji: "aisatsu"
     meaning: {
@@ -26866,7 +26866,7 @@ lesson-50:
 
   - id: [50, 16]
     edition: [1, 2]
-    kanji: "さ来週"
+    kanji: "再来週"
     kana: "さらいしゅう"
     romaji: "saraishū"
     meaning: {
@@ -26876,7 +26876,7 @@ lesson-50:
 
   - id: [50, 17]
     edition: [1, 2]
-    kanji: "さ来月"
+    kanji: "再来月"
     kana: "さらいげつ"
     romaji: "saraigetsu"
     meaning: {
@@ -26886,7 +26886,7 @@ lesson-50:
 
   - id: [50, 18]
     edition: [1, 2]
-    kanji: "さ来年"
+    kanji: "再来年"
     kana: "さらいねん"
     romaji: "sarainen"
     meaning: {
@@ -26956,7 +26956,7 @@ lesson-50:
 
   - id: [50, 25]
     edition: [1, 2]
-    kanji: "かないます［夢が～］"
+    kanji: "叶います［夢が～］"
     kana: "かないます［ゆめが～］"
     romaji: "kanaimasu [yumega~]"
     meaning: {
@@ -27016,7 +27016,7 @@ lesson-50:
 
   - id: [50, 31]
     edition: [1, 2]
-    kanji: "迷惑を かけます"
+    kanji: "迷惑を 掛けます"
     kana: "めいわくを かけます"
     romaji: "meiwakuwo kakemasu"
     meaning: {
