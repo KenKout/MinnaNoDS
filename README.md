@@ -47,6 +47,11 @@ This project aims to serve as a comprehensive vocabulary list for the [`Minna no
 To be more specific, it intends to be as close as possible to the source material, in an effort to (hopefully) provide a foundation anyone can use or expand on.
 
 
+This fork adds two things on top of [vitto4/MinnaNoDS](https://github.com/vitto4/MinnaNoDS):
+
+- a reviewed **`norm` block** on every entry: dictionary-form headword, reading, card display, POS and kind. See [`CONVENTIONS.md`](CONVENTIONS.md#-the-norm-block-normalised-headwords).
+- **`minna-no-ds-intermediate.yaml`**, with the vocabulary of *Minna no Nihongo Chūkyū* in the same format (English meanings only, `edition: [3]`).
+
 The dataset currently targets two languages for `meaning` :
 ```yaml
 languages:

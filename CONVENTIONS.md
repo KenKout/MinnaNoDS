@@ -70,3 +70,34 @@ Formatting rules were decided arbitrarily, I chose what looked or sounded best t
   </div>
 </details>
 </div>
+
+## 🧭 The `norm` block (normalised headwords)
+
+Every entry carries a single-line `norm` flow mapping, added after `meaning`. The original fields (`kanji`, `kana`, `romaji`, `meaning`) stay as close to the books as possible. `norm` is the reviewed, machine-friendly headword that decks and tools should use.
+
+```yaml
+  - id: [7, 9]
+    edition: [1, 2]
+    kanji: "掛けます［電話を～］"
+    kana: "かけます［でんわを～］"
+    romaji: "kakemasu [denwa o ～]"
+    meaning: { ... }
+    norm: {word: "掛ける", reading: "かける", display: "電話を掛ける", display_reading: "でんわをかける", pos: v1, kind: word}
+```
+
+| key | meaning |
+|---|---|
+| `word` | Canonical headword in **dictionary form** (起きます → 起きる, 勉強します → 勉強する). Kana is promoted to kanji when the word is normally written in kanji (わたし → 私, かぎ → 鍵). な-adjectives without な (静か). Affixes and counters as the bare morpheme (～方 → 方). Fixed phrases and greetings (いただきます, わかりました, 違います as a reply) stay as used, without the book's word spacing. |
+| `reading` | Hiragana reading of `word` (katakana → hiragana, no spaces). |
+| `display` | What a card front shows. It always disambiguates homographs: the usage hint is composed with the dictionary form (電話を掛ける), な-adjectives end with な (静かな), affixes and counters keep the `～` slot (～方, この～, ～歳), optional parts keep their brackets (［お］風呂, カレー［ライス］), and there is no book word spacing. |
+| `display_reading` | Hiragana reading of `display`. |
+| `pos` | `n` `pn` `v1` `v5` `vs` `vk` `adj-i` `adj-na` `adj-pn` `adv` `conj` `int` `prt` `ctr` `suf` `pref` `num` `exp` |
+| `kind` | `word` · `prefix` · `suffix` · `counter` · `expression` · `name` · `title` |
+
+Entry-level structure:
+
+- `same_as: [L, N]`: this entry is the same card as entry `[L, N]`, for example a word listed again in a later lesson or in the other edition. Consumers merge it into that row and may append its `meaning`.
+- `split: [{...}, {...}]`: a packed homophone entry (見ます、診ます) that yields one headword per piece.
+- `exclude: fictitious | no-reading`: fictitious names used only in the books' dialogues, and work titles without a usable reading. These are not vocabulary cards.
+
+`id` is the primary key and must stay stable. Fix typos in place and record them with the usual `# !MOD REPLACED` comment. Never renumber.
