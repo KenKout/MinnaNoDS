@@ -7587,7 +7587,8 @@ lesson-12:
       en: "maple, red leaves of autumn",
       fr: "érable, feuille rouge d'automne",
     }
-    norm: {word: "紅葉", reading: "こうよう", display: "紅葉", display_reading: "もみじ", pos: n, kind: word}
+    # !MOD REPLACED : norm reading `こうよう` --> `もみじ` (source kana and maple sense)
+    norm: {word: "紅葉", reading: "もみじ", display: "紅葉", display_reading: "もみじ", pos: n, kind: word}
 
   - id: [12, 40]
     edition: [1, 2]

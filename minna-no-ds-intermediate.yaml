@@ -13218,13 +13218,14 @@ lesson-14:
     norm: {exclude: no-reading}
   - id: [14, 219]
     edition: [3]
-    kanji: "星野哲郎"
+    # !MOD REPLACED : `星野哲郎` --> `星野鉄郎` (Galaxy Express 999 protagonist)
+    kanji: "星野鉄郎"
     kana: "ほしのてつろう"
     romaji: "hoshinotetsurō"
     meaning: {
       en: "Hoshino Tetsuro: the hero of Galaxy Express 999."
     }
-    norm: {word: "星野哲郎", reading: "ほしのてつろう", display: "星野哲郎", display_reading: "ほしのてつろう", pos: n, kind: name}
+    norm: {word: "星野鉄郎", reading: "ほしのてつろう", display: "星野鉄郎", display_reading: "ほしのてつろう", pos: n, kind: name}
   - id: [14, 220]
     edition: [3]
     kanji: ~
@@ -14922,12 +14923,14 @@ lesson-15:
   - id: [15, 170]
     edition: [3]
     kanji: ~
-    kana: "ネビル・ロングポトム"
-    romaji: "nebiru rongupotomu"
+    # !MOD REPLACED : `ネビル・ロングポトム` --> `ネビル・ロングボトム`
+    kana: "ネビル・ロングボトム"
+    # !MOD REPLACED : `nebiru rongupotomu` --> `nebiru rongubotomu`
+    romaji: "nebiru rongubotomu"
     meaning: {
       en: "Neville Longbottom: Room-mate of Harry and Ron."
     }
-    norm: {word: "ネビル・ロングポトム", reading: "ねびる・ろんぐぽとむ", display: "ネビル・ロングポトム", display_reading: "ねびる・ろんぐぽとむ", pos: n, kind: name}
+    norm: {word: "ネビル・ロングボトム", reading: "ねびる・ろんぐぼとむ", display: "ネビル・ロングボトム", display_reading: "ねびる・ろんぐぼとむ", pos: n, kind: name}
   - id: [15, 171]
     edition: [3]
     kanji: ~
@@ -16666,7 +16669,8 @@ lesson-16:
     meaning: {
       en: "like a stone"
     }
-    norm: {word: "すとんと", reading: "すとんと", display: "すとんと～", display_reading: "すとんと～", pos: adv, kind: prefix}
+    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
+    norm: {word: "すとんと", reading: "すとんと", display: "すとんと～", display_reading: "すとんと～", pos: adv, kind: word}
   - id: [16, 183]
     edition: [3]
     kanji: "必死［に］"
@@ -16711,7 +16715,8 @@ lesson-16:
     meaning: {
       en: "blankly"
     }
-    norm: {word: "きょとんと", reading: "きょとんと", display: "きょとんと～", display_reading: "きょとんと～", pos: adv, kind: prefix}
+    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
+    norm: {word: "きょとんと", reading: "きょとんと", display: "きょとんと～", display_reading: "きょとんと～", pos: adv, kind: word}
   - id: [16, 188]
     edition: [3]
     kanji: ~
@@ -19782,7 +19787,8 @@ lesson-18:
     kana: "こえる"
     romaji: "koeru"
     meaning: {
-      en: "encourage"
+      # !MOD REPLACED : `encourage` --> `exceed, go beyond`
+      en: "exceed, go beyond"
     }
     norm: {word: "超える", reading: "こえる", display: "超える", display_reading: "こえる", pos: v1, kind: word}
   - id: [18, 116]
@@ -21805,13 +21811,14 @@ lesson-19:
     norm: {word: "いわゆる～です", reading: "いわゆる～です", display: "いわゆる～です。", display_reading: "いわゆる～です。", pos: exp, kind: expression}
   - id: [19, 213]
     edition: [3]
-    kanji: "森正弘"
+    # !MOD REPLACED : `森正弘` --> `森政弘` (robotics engineer Mori Masahiro)
+    kanji: "森政弘"
     kana: "もりまさひろ"
     romaji: "morimasahiro"
     meaning: {
       en: "Mori Masahiro: Pioneering Japanese robotics engineer. 1927-."
     }
-    norm: {word: "森正弘", reading: "もりまさひろ", display: "森正弘", display_reading: "もりまさひろ", pos: n, kind: name}
+    norm: {word: "森政弘", reading: "もりまさひろ", display: "森政弘", display_reading: "もりまさひろ", pos: n, kind: name}
   - id: [19, 214]
     edition: [3]
     kanji: "スペイン風邪"
@@ -24531,7 +24538,8 @@ lesson-21:
     meaning: {
       en: "be proficient at, enjoy to the full"
     }
-    norm: {word: "堪能", reading: "たんのう", display: "堪能する", display_reading: "たんのうする", pos: adj-na, kind: word}
+    # !MOD REPLACED : norm pos `adj-na` --> `vs` (the source's する / enjoy-to-the-full usage)
+    norm: {word: "堪能", reading: "たんのう", display: "堪能する", display_reading: "たんのうする", pos: vs, kind: word}
   - id: [21, 81]
     edition: [3]
     kanji: "訳す"
@@ -26155,13 +26163,16 @@ lesson-22:
     norm: {word: "敬具", reading: "けいぐ", display: "敬具", display_reading: "けいぐ", pos: exp, kind: expression}
   - id: [22, 50]
     edition: [3]
-    kanji: "色は匂いへどちりぬるを"
-    kana: "いろはにおいへどちりぬるを"
-    romaji: "irohanioihedochirinuruwo"
+    # !MOD REPLACED : `色は匂いへどちりぬるを` --> `色は匂へどちりぬるを`
+    kanji: "色は匂へどちりぬるを"
+    # !MOD REPLACED : `いろはにおいへどちりぬるを` --> `いろはにほへどちりぬるを` (historical kana)
+    kana: "いろはにほへどちりぬるを"
+    # !MOD REPLACED : `irohanioihedochirinuruwo` --> `irohanihohedochirinuruwo` (transliterates historical kana)
+    romaji: "irohanihohedochirinuruwo"
     meaning: {
       en: "‘Colors are fragrant, but they fade away.’"
     }
-    norm: {word: "色は匂いへどちりぬるを", reading: "いろはにおいへどちりぬるを", display: "色は匂いへどちりぬるを", display_reading: "いろはにおいへどちりぬるを", pos: exp, kind: expression}
+    norm: {word: "色は匂へどちりぬるを", reading: "いろはにほへどちりぬるを", display: "色は匂へどちりぬるを", display_reading: "いろはにほへどちりぬるを", pos: exp, kind: expression}
   - id: [22, 51]
     edition: [3]
     kanji: "氏"
