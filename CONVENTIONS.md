@@ -24,6 +24,7 @@
   ```yaml
   # !MOD REPLACED : `<word with typo>` --> `<corrected version>`
   ```
+  Detailed reasons, affected IDs and independent evidence also belong in the commit body.
 - `Minna no Nihongo`-specific vocabulary (like `IMC／パワー電気／ブラジルエアー`) is included.
 
 ## Formatting
@@ -101,3 +102,15 @@ Entry-level structure:
 - `exclude: fictitious | no-reading`: fictitious names used only in the books' dialogues, and work titles without a usable reading. These are not vocabulary cards.
 
 `id` is the primary key and must stay stable. Fix typos in place and record them with the usual `# !MOD REPLACED` comment. Never renumber.
+
+## Named supplements
+
+The 24 numbered Chūkyū lessons remain in `lessons`. Additional printed vocabulary can live in a separate section registered by `supplements`:
+
+```yaml
+supplements: [{key: "supplement-extra-grammar", id: 0, title: "Extra Grammatical Notes"}]
+supplement-extra-grammar:
+  - {id: [0, 1], edition: [3], kanji: 当日, kana: とうじつ, romaji: toujitsu, meaning: {en: "that day"}, norm: {word: 当日, reading: とうじつ, display: 当日, display_reading: とうじつ, pos: n, kind: word}}
+```
+
+Section IDs must not collide with numbered lessons. Supplement entry IDs follow the same immutable `[section, item]` contract; `same_as` and `split` work as usual. Cultural titles with an attested usable reading use `kind: title`; only genuinely unreadable titles are excluded as `no-reading`.

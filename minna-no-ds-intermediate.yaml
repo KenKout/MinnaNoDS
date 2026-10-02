@@ -206,12 +206,13 @@ lesson-01:
     }
     norm: {word: "いっぱい", reading: "いっぱい", display: "いっぱい", display_reading: "いっぱい", pos: n, kind: word}
   - id: [1, 20]
+    # !MOD REPLACED : `how; how much; to what extent` --> `however; no matter how; how much; to what extent`
     edition: [3]
     kanji: ~
     kana: "どんなに"
     romaji: "donnani"
     meaning: {
-      en: "how; how much; to what extent"
+      en: "however; no matter how; how much; to what extent"
     }
     norm: {word: "どんなに", reading: "どんなに", display: "どんなに", display_reading: "どんなに", pos: adv, kind: word}
   - id: [1, 21]
@@ -233,12 +234,13 @@ lesson-01:
     }
     norm: {word: "欠点", reading: "けってん", display: "欠点", display_reading: "けってん", pos: n, kind: word}
   - id: [1, 23]
+    # !MOD REPLACED : `past; after; too much` --> `past; after [of a time]`
     edition: [3]
     kanji: "～過ぎ"
     kana: "～すぎ"
     romaji: "~sugi"
     meaning: {
-      en: "past; after; too much"
+      en: "past; after [of a time]"
     }
     norm: {word: "過ぎ", reading: "すぎ", display: "～過ぎ", display_reading: "～すぎ", pos: suf, kind: suffix}
   - id: [1, 24]
@@ -864,6 +866,7 @@ lesson-01:
     }
     norm: {word: "村上春樹", reading: "むらかみはるき", display: "村上春樹", display_reading: "むらかみはるき", pos: n, kind: name}
   - id: [1, 93]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ノルウェイの森 / のるうぇいのもり`
     edition: [3]
     kanji: "『ノルウェイの森』"
     kana: "『ノルウェイのもり』"
@@ -871,7 +874,7 @@ lesson-01:
     meaning: {
       en: "Norwegian Wood: one of Haruki Murakami's best-known novels, translated into many languages."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ノルウェイの森", reading: "のるうぇいのもり", display: "ノルウェイの森", display_reading: "のるうぇいのもり", pos: n, kind: title}
   - id: [1, 94]
     edition: [3]
     kanji: "南太平洋"
@@ -909,12 +912,13 @@ lesson-01:
     }
     norm: {word: "マダガスカル", reading: "まだがすかる", display: "マダガスカル", display_reading: "まだがすかる", pos: n, kind: name}
   - id: [1, 98]
+    # !MOD REPLACED : `tatamisé: a French term for someone familiar with Japanese lifestyle and culture` --> `a person who has adopted Japanese lifestyle and culture`
     edition: [3]
     kanji: ~
     kana: "タタミゼ"
     romaji: "tatamize"
     meaning: {
-      en: "tatamisé: a French term for someone familiar with Japanese lifestyle and culture"
+      en: "a person who has adopted Japanese lifestyle and culture"
     }
     norm: {word: "タタミゼ", reading: "たたみぜ", display: "タタミゼ", display_reading: "たたみぜ", pos: n, kind: word}
 
@@ -3421,14 +3425,15 @@ lesson-05:
     }
     norm: {word: "ページ", reading: "ぺーじ", display: "ページ", display_reading: "ぺーじ", pos: n, kind: word}
   - id: [5, 29]
+    # !MOD REPLACED : `美術 / びじゅつ` --> `芸術 / げいじゅつ`
     edition: [3]
-    kanji: "美術"
-    kana: "びじゅつ"
-    romaji: "bijutsu"
+    kanji: "芸術"
+    kana: "げいじゅつ"
+    romaji: "geijutsu"
     meaning: {
-      en: "art"
+      en: "art; the arts"
     }
-    norm: {word: "美術", reading: "びじゅつ", display: "美術", display_reading: "びじゅつ", pos: n, kind: word}
+    norm: {word: "芸術", reading: "げいじゅつ", display: "芸術", display_reading: "げいじゅつ", pos: n, kind: word}
   - id: [5, 30]
     edition: [3]
     kanji: "道順"
@@ -4609,6 +4614,7 @@ lesson-06:
     }
     norm: {word: "もし～が無理なら、……", reading: "もし～がむりなら、……", display: "もし～が無理なら、……。", display_reading: "もし～がむりなら、……。", pos: exp, kind: expression}
   - id: [6, 84]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ちょうちょ / ちょうちょ`
     edition: [3]
     kanji: ~
     kana: "「ちょうちょ」"
@@ -4616,7 +4622,7 @@ lesson-06:
     meaning: {
       en: "Chōchō (Butterfly): a children's song."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ちょうちょ", reading: "ちょうちょ", display: "ちょうちょ", display_reading: "ちょうちょ", pos: n, kind: title}
   - id: [6, 85]
     edition: [3]
     kanji: ~
@@ -6988,23 +6994,25 @@ lesson-09:
     }
     norm: {word: "黒澤明", reading: "くろさわあきら", display: "黒澤明", display_reading: "くろさわあきら", pos: n, kind: name}
   - id: [9, 96]
+    # !MOD REPLACED : `Daisuke Inoue: Inventor of karaoke. 1949-.` --> `Daisuke Inoue: Inventor of karaoke. 1940-.`
     edition: [3]
     kanji: "井上大佑"
     kana: "いのうえだいすけ"
     romaji: "inōedaisuke"
     meaning: {
-      en: "Daisuke Inoue: Inventor of karaoke. 1949-."
+      en: "Daisuke Inoue: Inventor of karaoke. 1940-."
     }
     norm: {word: "井上大佑", reading: "いのうえだいすけ", display: "井上大佑", display_reading: "いのうえだいすけ", pos: n, kind: name}
   - id: [9, 97]
+    # !MOD REPLACED : `8ジューク / はちじゅーく` --> `8ジューク / えいとじゅーく`
     edition: [3]
     kanji: ~
     kana: "8ジューク"
-    romaji: "8ju-ku"
+    romaji: "eito ju-ku"
     meaning: {
       en: "8-track jukebox: The first karaoke device, invented by Daisuke Inoue in 1971."
     }
-    norm: {word: "8ジューク", reading: "はちじゅーく", display: "8ジューク", display_reading: "はちじゅーく", pos: n, kind: word}
+    norm: {word: "8ジューク", reading: "えいとじゅーく", display: "8ジューク", display_reading: "えいとじゅーく", pos: n, kind: word}
   - id: [9, 98]
     edition: [3]
     kanji: "曲がるストロー"
@@ -9633,12 +9641,13 @@ lesson-13:
     }
     norm: {word: "以降", reading: "いこう", display: "以降", display_reading: "いこう", pos: n, kind: word}
   - id: [13, 23]
+    # !MOD REPLACED : `since, henceforth` --> `since`
     edition: [3]
     kanji: "以来"
     kana: "いらい"
     romaji: "irai"
     meaning: {
-      en: "since, henceforth"
+      en: "since"
     }
     norm: {word: "以来", reading: "いらい", display: "以来", display_reading: "いらい", pos: suf, kind: word}
   - id: [13, 24]
@@ -10380,12 +10389,13 @@ lesson-13:
     }
     norm: {word: "遠ざける", reading: "とおざける", display: "遠ざける", display_reading: "とおざける", pos: v1, kind: word}
   - id: [13, 106]
+    # !MOD REPLACED : `household (lit. corner)` --> `household; family (lit. gate)`
     edition: [3]
     kanji: "門"
     kana: "かど"
     romaji: "kado"
     meaning: {
-      en: "household (lit. corner)"
+      en: "household; family (lit. gate)"
     }
     norm: {word: "門", reading: "かど", display: "門", display_reading: "かど", pos: n, kind: word}
   - id: [13, 107]
@@ -10731,12 +10741,13 @@ lesson-13:
     }
     norm: {word: "約", reading: "やく", display: "約～", display_reading: "やく～", pos: pref, kind: prefix}
   - id: [13, 145]
+    # !MOD REPLACED : `% (percent)` --> `one tenth; ten percent [ratio unit]`
     edition: [3]
     kanji: "割り"
     kana: "わり"
     romaji: "wari"
     meaning: {
-      en: "% (percent)"
+      en: "one tenth; ten percent [ratio unit]"
     }
     norm: {word: "割", reading: "わり", display: "～割", display_reading: "～わり", pos: ctr, kind: counter}
   - id: [13, 146]
@@ -13190,6 +13201,7 @@ lesson-14:
     }
     norm: {word: "で、どうなったの？結局", reading: "で、どうなったの？けっきょく", display: "で、どうなったの？結局。", display_reading: "で、どうなったの？けっきょく。", pos: exp, kind: expression}
   - id: [14, 216]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ドラゴンボール / どらごんぼーる`
     edition: [3]
     kanji: ~
     kana: "『ドラゴンボール』"
@@ -13197,7 +13209,7 @@ lesson-14:
     meaning: {
       en: "Dragon Ball: A Japanese manga and anime film. A long hit in Japan and around the world."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ドラゴンボール", reading: "どらごんぼーる", display: "ドラゴンボール", display_reading: "どらごんぼーる", pos: n, kind: title}
   - id: [14, 217]
     edition: [3]
     kanji: ~
@@ -13208,6 +13220,7 @@ lesson-14:
     }
     norm: {word: "ディズニー", reading: "でぃずにー", display: "ディズニー", display_reading: "でぃずにー", pos: n, kind: name}
   - id: [14, 218]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 銀河鉄道９９９ / ぎんがてつどうすりーないん`
     edition: [3]
     kanji: "『銀河鉄道９９９』"
     kana: "ぎんがてつどう９９９"
@@ -13215,10 +13228,10 @@ lesson-14:
     meaning: {
       en: "Galaxy Express 999: A Japanese science fiction manga, television anime and anime film."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "銀河鉄道９９９", reading: "ぎんがてつどうすりーないん", display: "銀河鉄道９９９", display_reading: "ぎんがてつどうすりーないん", pos: n, kind: title}
   - id: [14, 219]
-    edition: [3]
     # !MOD REPLACED : `星野哲郎` --> `星野鉄郎` (Galaxy Express 999 protagonist)
+    edition: [3]
     kanji: "星野鉄郎"
     kana: "ほしのてつろう"
     romaji: "hoshinotetsurō"
@@ -13254,6 +13267,7 @@ lesson-14:
     }
     norm: {word: "光源氏", reading: "ひかるげんじ", display: "光源氏", display_reading: "ひかるげんじ", pos: n, kind: name}
   - id: [14, 223]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ワンピース / わんぴーす`
     edition: [3]
     kanji: ~
     kana: "『ワンピース』（ONE PIECE）"
@@ -13261,7 +13275,7 @@ lesson-14:
     meaning: {
       en: "One Piece: a Japanese manga/anime series about sea adventures, translated and broadcast worldwide."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ワンピース", reading: "わんぴーす", display: "ワンピース", display_reading: "わんぴーす", pos: n, kind: title}
   - id: [14, 224]
     edition: [3]
     kanji: ~
@@ -13272,6 +13286,7 @@ lesson-14:
     }
     norm: {word: "チリ", reading: "ちり", display: "チリ", display_reading: "ちり", pos: n, kind: name}
   - id: [14, 225]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 浦島太郎 / うらしまたろう`
     edition: [3]
     kanji: "『浦島太郎』"
     kana: "『うらしまたろう』"
@@ -13279,7 +13294,7 @@ lesson-14:
     meaning: {
       en: "Urashima Taro: a Japanese folktale."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "浦島太郎", reading: "うらしまたろう", display: "浦島太郎", display_reading: "うらしまたろう", pos: n, kind: title}
   - id: [14, 226]
     edition: [3]
     kanji: ~
@@ -13326,6 +13341,7 @@ lesson-14:
     }
     norm: {word: "京都大学", reading: "きょうとだいがく", display: "京都大学", display_reading: "きょうとだいがく", pos: n, kind: name}
   - id: [14, 231]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 奇跡の人 / きせきのひと`
     edition: [3]
     kanji: "『奇跡の人』"
     kana: "『きせきのひと』"
@@ -13333,8 +13349,9 @@ lesson-14:
     meaning: {
       en: "The Miracle Worker: a film about Helen Keller and her teacher Anne Sullivan."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "奇跡の人", reading: "きせきのひと", display: "奇跡の人", display_reading: "きせきのひと", pos: n, kind: title}
   - id: [14, 232]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ガラスの仮面 / がらすのかめん`
     edition: [3]
     kanji: "『ガラスの仮面』"
     kana: "『ガラスのかめん』"
@@ -13342,7 +13359,7 @@ lesson-14:
     meaning: {
       en: "Glass Mask: a Japanese manga for girls."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ガラスの仮面", reading: "がらすのかめん", display: "ガラスの仮面", display_reading: "がらすのかめん", pos: n, kind: title}
   - id: [14, 233]
     edition: [3]
     kanji: ~
@@ -13362,6 +13379,7 @@ lesson-14:
     }
     norm: {word: "宮崎駿", reading: "みやざきはやお", display: "宮崎駿", display_reading: "みやざきはやお", pos: n, kind: name}
   - id: [14, 235]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ルパン三世カリオストロの城 / るぱんさんせいかりおすとろのしろ`
     edition: [3]
     kanji: "『ルパン三世カリオストロの城』"
     kana: "『ルパンさんせいカリオストロのしろ』"
@@ -13369,8 +13387,9 @@ lesson-14:
     meaning: {
       en: "Lupin III: The Castle of Cagliostro: an animated film in the Lupin III series."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ルパン三世カリオストロの城", reading: "るぱんさんせいかりおすとろのしろ", display: "ルパン三世カリオストロの城", display_reading: "るぱんさんせいかりおすとろのしろ", pos: n, kind: title}
   - id: [14, 236]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 崖の上のポニョ / がけのうえのぽにょ`
     edition: [3]
     kanji: "『崖の上のポニョ』"
     kana: "『がけのうえのポニョ』"
@@ -13378,8 +13397,9 @@ lesson-14:
     meaning: {
       en: "Ponyo: a Studio Ghibli animated film directed by Hayao Miyazaki."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "崖の上のポニョ", reading: "がけのうえのぽにょ", display: "崖の上のポニョ", display_reading: "がけのうえのぽにょ", pos: n, kind: title}
   - id: [14, 237]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 魔女の宅急便 / まじょのたっきゅうびん`
     edition: [3]
     kanji: "『魔女の宅急便』"
     kana: "『まじょのたっきゅうびん』"
@@ -13387,8 +13407,9 @@ lesson-14:
     meaning: {
       en: "Kiki's Delivery Service: a Studio Ghibli animated film directed by Hayao Miyazaki."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "魔女の宅急便", reading: "まじょのたっきゅうびん", display: "魔女の宅急便", display_reading: "まじょのたっきゅうびん", pos: n, kind: title}
   - id: [14, 238]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 千と千尋の神隠し / せんとちひろのかみかくし`
     edition: [3]
     kanji: "『千と千尋の神隠し』"
     kana: "『せんとちひろのかみかくし』"
@@ -13396,7 +13417,7 @@ lesson-14:
     meaning: {
       en: "Spirited Away: a Studio Ghibli animated film directed by Hayao Miyazaki."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "千と千尋の神隠し", reading: "せんとちひろのかみかくし", display: "千と千尋の神隠し", display_reading: "せんとちひろのかみかくし", pos: n, kind: title}
 
 lesson-15:
   - id: [15, 1]
@@ -14030,12 +14051,13 @@ lesson-15:
     }
     norm: {word: "結ぶ", reading: "むすぶ", display: "実を結ぶ", display_reading: "みをむすぶ", pos: v5, kind: word}
   - id: [15, 71]
+    # !MOD REPLACED : `be fascinated` --> `charm; captivate; fascinate`
     edition: [3]
     kanji: "魅せる"
     kana: "みせる"
     romaji: "miseru"
     meaning: {
-      en: "be fascinated"
+      en: "charm; captivate; fascinate"
     }
     norm: {word: "魅せる", reading: "みせる", display: "魅せる", display_reading: "みせる", pos: v1, kind: word}
   - id: [15, 72]
@@ -14894,6 +14916,7 @@ lesson-15:
     }
     norm: {word: "うっかり八兵衛", reading: "うっかりはちべえ", display: "うっかり八兵衛", display_reading: "うっかりはちべえ", pos: n, kind: name}
   - id: [15, 167]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ハリー・ポッター / はりー・ぽったー`
     edition: [3]
     kanji: ~
     kana: "『ハリー・ポッター』"
@@ -14901,7 +14924,7 @@ lesson-15:
     meaning: {
       en: "Harry Potter: A series of fantasy novels for children written by British author J.K. Rowling. Also turned into films."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ハリー・ポッター", reading: "はりー・ぽったー", display: "ハリー・ポッター", display_reading: "はりー・ぽったー", pos: n, kind: title}
   - id: [15, 168]
     edition: [3]
     kanji: ~
@@ -14921,11 +14944,11 @@ lesson-15:
     }
     norm: {word: "ハーマイオニー", reading: "はーまいおにー", display: "ハーマイオニー", display_reading: "はーまいおにー", pos: n, kind: name}
   - id: [15, 170]
+    # !MOD REPLACED : `ネビル・ロングポトム` --> `ネビル・ロングボトム`
+    # !MOD REPLACED : `nebiru rongupotomu` --> `nebiru rongubotomu`
     edition: [3]
     kanji: ~
-    # !MOD REPLACED : `ネビル・ロングポトム` --> `ネビル・ロングボトム`
     kana: "ネビル・ロングボトム"
-    # !MOD REPLACED : `nebiru rongupotomu` --> `nebiru rongubotomu`
     romaji: "nebiru rongubotomu"
     meaning: {
       en: "Neville Longbottom: Room-mate of Harry and Ron."
@@ -15672,14 +15695,15 @@ lesson-16:
     }
     norm: {word: "日付", reading: "ひづけ", display: "日付", display_reading: "ひづけ", pos: n, kind: word}
   - id: [16, 72]
+    # !MOD REPLACED : `知り合い / しりあい` --> `知人 / ちじん`
     edition: [3]
-    kanji: "知り合い"
-    kana: "しりあい"
-    romaji: "shiriai"
+    kanji: "知人"
+    kana: "ちじん"
+    romaji: "chijin"
     meaning: {
       en: "acquaintance"
     }
-    norm: {word: "知り合い", reading: "しりあい", display: "知り合い", display_reading: "しりあい", pos: n, kind: word, same_as: [13, 121]}
+    norm: {word: "知人", reading: "ちじん", display: "知人", display_reading: "ちじん", pos: n, kind: word}
   - id: [16, 73]
     edition: [3]
     kanji: ~
@@ -15969,14 +15993,15 @@ lesson-16:
     }
     norm: {word: "離す", reading: "はなす", display: "目を離す", display_reading: "めをはなす", pos: v5, kind: word}
   - id: [16, 105]
+    # !MOD REPLACED : `謝る / あやまる` --> `誤る / あやまる`
     edition: [3]
-    kanji: "謝る"
+    kanji: "誤る"
     kana: "あやまる"
     romaji: "ayamaru"
     meaning: {
-      en: "apologize"
+      en: "get wrong; make a mistake"
     }
-    norm: {word: "謝る", reading: "あやまる", display: "謝る", display_reading: "あやまる", pos: v5, kind: word}
+    norm: {word: "誤る", reading: "あやまる", display: "誤る", display_reading: "あやまる", pos: v5, kind: word}
   - id: [16, 106]
     edition: [3]
     kanji: "入力［する］"
@@ -16320,14 +16345,15 @@ lesson-16:
     }
     norm: {word: "時期", reading: "じき", display: "時期", display_reading: "じき", pos: n, kind: word}
   - id: [16, 144]
+    # !MOD REPLACED : `予期 / よき` --> `予測 / よそく`
     edition: [3]
-    kanji: "予期［する］"
-    kana: "よき［する］"
-    romaji: "yoki (suru)"
+    kanji: "予測［する］"
+    kana: "よそく［する］"
+    romaji: "yosoku (suru)"
     meaning: {
-      en: "expect"
+      en: "predict; forecast"
     }
-    norm: {word: "予期", reading: "よき", display: "予期する", display_reading: "よきする", pos: n, kind: word}
+    norm: {word: "予測", reading: "よそく", display: "予測する", display_reading: "よそくする", pos: vs, kind: word}
   - id: [16, 145]
     edition: [3]
     kanji: "避難［する］"
@@ -16338,12 +16364,13 @@ lesson-16:
     }
     norm: {word: "避難", reading: "ひなん", display: "避難する", display_reading: "ひなんする", pos: n, kind: word}
   - id: [16, 146]
+    # !MOD REPLACED : `money` --> `budget`
     edition: [3]
     kanji: "予算"
     kana: "よさん"
     romaji: "yosan"
     meaning: {
-      en: "money"
+      en: "budget"
     }
     norm: {word: "予算", reading: "よさん", display: "予算", display_reading: "よさん", pos: n, kind: word}
   - id: [16, 147]
@@ -16554,12 +16581,13 @@ lesson-16:
     }
     norm: {word: "身分証明書", reading: "みぶんしょうめいしょ", display: "身分証明書", display_reading: "みぶんしょうめいしょ", pos: n, kind: word}
   - id: [16, 170]
+    # !MOD REPLACED : `rank` --> `identity; personal status`
     edition: [3]
     kanji: "身分"
     kana: "みぶん"
     romaji: "mibun"
     meaning: {
-      en: "rank"
+      en: "identity; personal status"
     }
     norm: {word: "身分", reading: "みぶん", display: "身分", display_reading: "みぶん", pos: n, kind: word}
   - id: [16, 171]
@@ -16662,6 +16690,7 @@ lesson-16:
     }
     norm: {word: "左手", reading: "ひだりて", display: "左手", display_reading: "ひだりて", pos: n, kind: word}
   - id: [16, 182]
+    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
     edition: [3]
     kanji: ~
     kana: "すとんと～"
@@ -16669,7 +16698,6 @@ lesson-16:
     meaning: {
       en: "like a stone"
     }
-    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
     norm: {word: "すとんと", reading: "すとんと", display: "すとんと～", display_reading: "すとんと～", pos: adv, kind: word}
   - id: [16, 183]
     edition: [3]
@@ -16708,6 +16736,7 @@ lesson-16:
     }
     norm: {word: "引き上げる", reading: "ひきあげる", display: "引き上げる", display_reading: "ひきあげる", pos: v1, kind: word}
   - id: [16, 187]
+    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
     edition: [3]
     kanji: ~
     kana: "きょとんと～"
@@ -16715,7 +16744,6 @@ lesson-16:
     meaning: {
       en: "blankly"
     }
-    # !MOD REPLACED : norm kind `prefix` --> `word` (independent adverb)
     norm: {word: "きょとんと", reading: "きょとんと", display: "きょとんと～", display_reading: "きょとんと～", pos: adv, kind: word}
   - id: [16, 188]
     edition: [3]
@@ -16907,12 +16935,13 @@ lesson-16:
     }
     norm: {word: "築く", reading: "きずく", display: "築く", display_reading: "きずく", pos: v5, kind: word}
   - id: [16, 209]
+    # !MOD REPLACED : `thief` --> `robbery; robber`
     edition: [3]
     kanji: "強盗"
     kana: "ごうとう"
     romaji: "gōtō"
     meaning: {
-      en: "thief"
+      en: "robbery; robber"
     }
     norm: {word: "強盗", reading: "ごうとう", display: "強盗", display_reading: "ごうとう", pos: n, kind: word}
   - id: [16, 210]
@@ -16943,12 +16972,13 @@ lesson-16:
     }
     norm: {word: "帳", reading: "ちょう", display: "アドレス帳", display_reading: "あどれすちょう", pos: suf, kind: suffix}
   - id: [16, 213]
+    # !MOD REPLACED : `sell` --> `buying and selling; trade`
     edition: [3]
     kanji: "売買［する］"
     kana: "ばいばい［する］"
     romaji: "baibai"
     meaning: {
-      en: "sell"
+      en: "buying and selling; trade"
     }
     norm: {word: "売買", reading: "ばいばい", display: "売買する", display_reading: "ばいばいする", pos: n, kind: word}
   - id: [16, 214]
@@ -16961,12 +16991,13 @@ lesson-16:
     }
     norm: {word: "大量", reading: "たいりょう", display: "大量", display_reading: "たいりょう", pos: n, kind: word}
   - id: [16, 215]
+    # !MOD REPLACED : `catch` --> `be caught; be arrested`
     edition: [3]
     kanji: "捕まる"
     kana: "つかまる"
     romaji: "tsukamaru"
     meaning: {
-      en: "catch"
+      en: "be caught; be arrested"
     }
     norm: {word: "捕まる", reading: "つかまる", display: "捕まる", display_reading: "つかまる", pos: v5, kind: word}
   - id: [16, 216]
@@ -17260,14 +17291,15 @@ lesson-17:
     }
     norm: {word: "弥生", reading: "やよい", display: "弥生", display_reading: "やよい", pos: n, kind: word}
   - id: [17, 23]
+    # !MOD REPLACED : `木の葉 / きのは` --> `木の葉 / このは`
     edition: [3]
     kanji: "木の葉"
-    kana: "きのは"
-    romaji: "kinoha"
+    kana: "このは"
+    romaji: "konoha"
     meaning: {
       en: "tree leaf"
     }
-    norm: {word: "木の葉", reading: "きのは", display: "木の葉", display_reading: "きのは", pos: n, kind: word}
+    norm: {word: "木の葉", reading: "このは", display: "木の葉", display_reading: "このは", pos: n, kind: word}
   - id: [17, 24]
     edition: [3]
     kanji: "転じる"
@@ -17872,12 +17904,13 @@ lesson-17:
     }
     norm: {word: "折々", reading: "おりおり", display: "四季折々", display_reading: "しきおりおり", pos: adv, kind: word}
   - id: [17, 91]
+    # !MOD REPLACED : `middle-aged man; uncle [to a child]` --> `"I" (an adult man referring to himself when speaking to a child; lit. uncle)`
     edition: [3]
     kanji: "おじさん（子どもに向かっての）"
     kana: "おじさん（こどもにむかっての）"
     romaji: "ojisan (kodomonimukatteno)"
     meaning: {
-      en: "middle-aged man; uncle [to a child]"
+      en: "\"I\" (an adult man referring to himself when speaking to a child; lit. uncle)"
     }
     norm: {word: "おじさん", reading: "おじさん", display: "おじさん（子どもに向かっての）", display_reading: "おじさん（こどもにむかっての）", pos: n, kind: word}
   - id: [17, 92]
@@ -18709,6 +18742,7 @@ lesson-17:
     }
     norm: {word: "ペレ", reading: "ぺれ", display: "ペレ", display_reading: "ぺれ", pos: n, kind: name}
   - id: [17, 184]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ポケモン / ぽけもん`
     edition: [3]
     kanji: ~
     kana: "『ポケモン』"
@@ -18716,7 +18750,7 @@ lesson-17:
     meaning: {
       en: "Pokemon (Pocket Monsters): An anime title."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ポケモン", reading: "ぽけもん", display: "ポケモン", display_reading: "ぽけもん", pos: n, kind: title}
   - id: [17, 185]
     edition: [3]
     kanji: ~
@@ -18954,14 +18988,15 @@ lesson-18:
     }
     norm: {word: "ちらちら", reading: "ちらちら", display: "ちらちら", display_reading: "ちらちら", pos: adv, kind: word}
   - id: [18, 23]
+    # !MOD REPLACED : `maniac` --> `geeky; obsessive; appealing to enthusiasts`
     edition: [3]
     kanji: ~
     kana: "マニアック"
     romaji: "maniakku"
     meaning: {
-      en: "maniac"
+      en: "geeky; obsessive; appealing to enthusiasts"
     }
-    norm: {word: "マニアック", reading: "まにあっく", display: "マニアック", display_reading: "まにあっく", pos: adj-na, kind: word}
+    norm: {word: "マニアック", reading: "まにあっく", display: "マニアックな", display_reading: "まにあっくな", pos: adj-na, kind: word}
   - id: [18, 24]
     edition: [3]
     kanji: ~
@@ -18972,21 +19007,23 @@ lesson-18:
     }
     norm: {word: "コレクター", reading: "これくたー", display: "コレクター", display_reading: "これくたー", pos: n, kind: word}
   - id: [18, 25]
+    # !MOD REPLACED : `no reason to know` --> `have no way of knowing`
     edition: [3]
     kanji: "知る由もない"
     kana: "しるよしもない"
     romaji: "shiruyoshimonai"
     meaning: {
-      en: "no reason to know"
+      en: "have no way of knowing"
     }
     norm: {word: "知る由もない", reading: "しるよしもない", display: "知る由もない", display_reading: "しるよしもない", pos: exp, kind: expression}
   - id: [18, 26]
+    # !MOD REPLACED : `intently` --> `sharp; piercing [of eyes or a gaze]`
     edition: [3]
     kanji: "鋭い"
     kana: "するどい"
     romaji: "surudoi"
     meaning: {
-      en: "intently"
+      en: "sharp; piercing [of eyes or a gaze]"
     }
     norm: {word: "鋭い", reading: "するどい", display: "鋭い", display_reading: "するどい", pos: adj-i, kind: word}
   - id: [18, 27]
@@ -19008,12 +19045,13 @@ lesson-18:
     }
     norm: {word: "走らす", reading: "はしらす", display: "視線を走らす", display_reading: "しせんをはしらす", pos: v5, kind: word}
   - id: [18, 29]
+    # !MOD REPLACED : `imagine` --> `idea; estimate; guess`
     edition: [3]
     kanji: "見当"
     kana: "けんとう"
     romaji: "kentō"
     meaning: {
-      en: "imagine"
+      en: "idea; estimate; guess"
     }
     norm: {word: "見当", reading: "けんとう", display: "見当", display_reading: "けんとう", pos: n, kind: word}
   - id: [18, 30]
@@ -19781,13 +19819,20 @@ lesson-18:
       en: "try"
     }
     norm: {word: "試す", reading: "ためす", display: "試す", display_reading: "ためす", pos: v5, kind: word}
+  - id: [18, 128]
+    edition: [3]
+    kanji: "励ます"
+    kana: "はげます"
+    romaji: "hagemasu"
+    meaning: {en: "encourage"}
+    norm: {word: "励ます", reading: "はげます", display: "励ます", display_reading: "はげます", pos: v5, kind: word, same_as: [16, 83]}
   - id: [18, 115]
+    # !MOD REPLACED : `encourage` --> `exceed, go beyond`
     edition: [3]
     kanji: "超える"
     kana: "こえる"
     romaji: "koeru"
     meaning: {
-      # !MOD REPLACED : `encourage` --> `exceed, go beyond`
       en: "exceed, go beyond"
     }
     norm: {word: "超える", reading: "こえる", display: "超える", display_reading: "こえる", pos: v1, kind: word}
@@ -19891,6 +19936,7 @@ lesson-18:
     }
     norm: {word: "渡辺昇", reading: "わたなべのぼる", display: "渡辺昇", display_reading: "わたなべのぼる", pos: n, kind: name}
   - id: [18, 127]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 鉄腕アトム / てつわんあとむ`
     edition: [3]
     kanji: "『鉄腕アトム』"
     kana: "『てつわんアトム』"
@@ -19898,7 +19944,7 @@ lesson-18:
     meaning: {
       en: "Tetsuwan Atom (Astro Boy, lit. “Iron-Arm Atom”): A science-fiction manga and television anime series by Tezuka Osamu (1928-1989)."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "鉄腕アトム", reading: "てつわんあとむ", display: "鉄腕アトム", display_reading: "てつわんあとむ", pos: n, kind: title}
 
 lesson-19:
   - id: [19, 1]
@@ -21054,12 +21100,13 @@ lesson-19:
     }
     norm: {word: "方向音痴", reading: "ほうこうおんち", display: "方向音痴", display_reading: "ほうこうおんち", pos: n, kind: word}
   - id: [19, 129]
+    # !MOD REPLACED : `navigator` --> `navigation device; GPS navigator`
     edition: [3]
     kanji: ~
     kana: "ナビゲーター"
     romaji: "nabigētā"
     meaning: {
-      en: "navigator"
+      en: "navigation device; GPS navigator"
     }
     norm: {word: "ナビゲーター", reading: "なびげーたー", display: "ナビゲーター", display_reading: "なびげーたー", pos: n, kind: word}
   - id: [19, 130]
@@ -21810,8 +21857,8 @@ lesson-19:
     }
     norm: {word: "いわゆる～です", reading: "いわゆる～です", display: "いわゆる～です。", display_reading: "いわゆる～です。", pos: exp, kind: expression}
   - id: [19, 213]
-    edition: [3]
     # !MOD REPLACED : `森正弘` --> `森政弘` (robotics engineer Mori Masahiro)
+    edition: [3]
     kanji: "森政弘"
     kana: "もりまさひろ"
     romaji: "morimasahiro"
@@ -23774,6 +23821,7 @@ lesson-20:
     }
     norm: {word: "武満徹", reading: "たけみつとおる", display: "武満徹", display_reading: "たけみつとおる", pos: n, kind: name}
   - id: [20, 216]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ノヴェンバー・ステップス / のゔぇんばー・すてっぷす`
     edition: [3]
     kanji: ~
     kana: "「ノヴェンバー・ステップス」"
@@ -23781,7 +23829,7 @@ lesson-20:
     meaning: {
       en: "November Steps: A work for biwa, shakuhachi and orchestra composed by Takemitsu in 1967, which led to his becoming world famous."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ノヴェンバー・ステップス", reading: "のゔぇんばー・すてっぷす", display: "ノヴェンバー・ステップス", display_reading: "のゔぇんばー・すてっぷす", pos: n, kind: title}
   - id: [20, 217]
     edition: [3]
     kanji: "臥牙丸関"
@@ -24531,14 +24579,15 @@ lesson-21:
     }
     norm: {word: "誘い水", reading: "さそいみず", display: "誘い水", display_reading: "さそいみず", pos: n, kind: word}
   - id: [21, 80]
+    # !MOD REPLACED : norm pos `adj-na` --> `vs` (the source's する / enjoy-to-the-full usage)
+    # !MOD REPLACED : `be proficient at, enjoy to the full` --> `enjoy to the full; savor`
     edition: [3]
     kanji: "堪能［する］"
     kana: "たんのう［する］"
     romaji: "tannō (suru)"
     meaning: {
-      en: "be proficient at, enjoy to the full"
+      en: "enjoy to the full; savor"
     }
-    # !MOD REPLACED : norm pos `adj-na` --> `vs` (the source's する / enjoy-to-the-full usage)
     norm: {word: "堪能", reading: "たんのう", display: "堪能する", display_reading: "たんのうする", pos: vs, kind: word}
   - id: [21, 81]
     edition: [3]
@@ -25711,6 +25760,7 @@ lesson-21:
     }
     norm: {word: "スピルバーグ", reading: "すぴるばーぐ", display: "スピルバーグ", display_reading: "すぴるばーぐ", pos: n, kind: name}
   - id: [21, 211]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 千両みかん / せんりょうみかん`
     edition: [3]
     kanji: "「千両みかん」"
     kana: "「せんりょうみかん」"
@@ -25718,7 +25768,7 @@ lesson-21:
     meaning: {
       en: "‘Senryo Mikan’: A classical rakugo routine."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "千両みかん", reading: "せんりょうみかん", display: "千両みかん", display_reading: "せんりょうみかん", pos: n, kind: title}
 lesson-22:
   - id: [22, 1]
     edition: [3]
@@ -26162,17 +26212,18 @@ lesson-22:
     }
     norm: {word: "敬具", reading: "けいぐ", display: "敬具", display_reading: "けいぐ", pos: exp, kind: expression}
   - id: [22, 50]
-    edition: [3]
     # !MOD REPLACED : `色は匂いへどちりぬるを` --> `色は匂へどちりぬるを`
-    kanji: "色は匂へどちりぬるを"
     # !MOD REPLACED : `いろはにおいへどちりぬるを` --> `いろはにほへどちりぬるを` (historical kana)
-    kana: "いろはにほへどちりぬるを"
     # !MOD REPLACED : `irohanioihedochirinuruwo` --> `irohanihohedochirinuruwo` (transliterates historical kana)
+    # !MOD REPLACED : `色は匂へどちりぬるを / いろはにほへどちりぬるを` --> `色は匂へどちりぬるを / いろはにおえどちりぬるを`
+    edition: [3]
+    kanji: "色は匂へどちりぬるを"
+    kana: "いろはにほへどちりぬるを"
     romaji: "irohanihohedochirinuruwo"
     meaning: {
       en: "‘Colors are fragrant, but they fade away.’"
     }
-    norm: {word: "色は匂へどちりぬるを", reading: "いろはにほへどちりぬるを", display: "色は匂へどちりぬるを", display_reading: "いろはにほへどちりぬるを", pos: exp, kind: expression}
+    norm: {word: "色は匂へどちりぬるを", reading: "いろはにおえどちりぬるを", display: "色は匂へどちりぬるを", display_reading: "いろはにおえどちりぬるを", pos: exp, kind: expression}
   - id: [22, 51]
     edition: [3]
     kanji: "氏"
@@ -28037,12 +28088,13 @@ lesson-22:
     }
     norm: {word: "ガンジス川", reading: "がんじすがわ", display: "ガンジス川", display_reading: "がんじすがわ", pos: n, kind: name}
   - id: [22, 258]
+    # !MOD REPLACED : `ASEAN (the Association of Southeast Asian Nations)` --> `ASEAN member countries (Association of Southeast Asian Nations)`
     edition: [3]
     kanji: "ASEAN諸国"
     kana: "ASEANしょこく"
     romaji: "ASEAN shokoku"
     meaning: {
-      en: "ASEAN (the Association of Southeast Asian Nations)"
+      en: "ASEAN member countries (Association of Southeast Asian Nations)"
     }
     norm: {word: "ASEAN諸国", reading: "あせあんしょこく", display: "ASEAN諸国", display_reading: "あせあんしょこく", pos: n, kind: name}
   - id: [22, 259]
@@ -28064,6 +28116,7 @@ lesson-22:
     }
     norm: {word: "アンデルセン童話", reading: "あんでるせんどうわ", display: "アンデルセン童話", display_reading: "あんでるせんどうわ", pos: n, kind: name}
   - id: [22, 261]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 羅生門 / らしょうもん`
     edition: [3]
     kanji: "「羅生門」"
     kana: "「らしょうもん」"
@@ -28071,8 +28124,9 @@ lesson-22:
     meaning: {
       en: "‘Rashomon’: A Japanese film by director Kurosawa Akira, released in 1950."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "羅生門", reading: "らしょうもん", display: "羅生門", display_reading: "らしょうもん", pos: n, kind: title}
   - id: [22, 262]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title 生きる / いきる`
     edition: [3]
     kanji: "「生きる」"
     kana: "「いきる」"
@@ -28080,7 +28134,7 @@ lesson-22:
     meaning: {
       en: "‘Ikiru’: A Japanese film by director Kurosawa Akira, released in 1952."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "生きる", reading: "いきる", display: "生きる", display_reading: "いきる", pos: n, kind: title}
 lesson-23:
   - id: [23, 1]
     edition: [3]
@@ -28487,6 +28541,13 @@ lesson-23:
       en: "get to the bottom of"
     }
     norm: {word: "掘り下げる", reading: "ほりさげる", display: "掘り下げる", display_reading: "ほりさげる", pos: v1, kind: word}
+  - id: [23, 192]
+    edition: [3]
+    kanji: "制御［する］"
+    kana: "せいぎょ［する］"
+    romaji: "seigyo (suru)"
+    meaning: {en: "control; regulate"}
+    norm: {word: "制御", reading: "せいぎょ", display: "制御する", display_reading: "せいぎょする", pos: vs, kind: word}
   - id: [23, 46]
     edition: [3]
     kanji: "無数の"
@@ -28983,12 +29044,13 @@ lesson-23:
     }
     norm: {word: "天然記念物", reading: "てんねんきねんぶつ", display: "天然記念物", display_reading: "てんねんきねんぶつ", pos: n, kind: word}
   - id: [23, 101]
+    # !MOD REPLACED : `be endangered` --> `fear; be apprehensive about`
     edition: [3]
     kanji: "危惧［する］"
     kana: "きぐ［する］"
     romaji: "kigu [suru]"
     meaning: {
-      en: "be endangered"
+      en: "fear; be apprehensive about"
     }
     norm: {word: "危惧", reading: "きぐ", display: "危惧する", display_reading: "きぐする", pos: n, kind: word}
   - id: [23, 102]
@@ -29712,14 +29774,15 @@ lesson-23:
     }
     norm: {word: "アラル海", reading: "あらるかい", display: "アラル海", display_reading: "あらるかい", pos: n, kind: name}
   - id: [23, 182]
+    # !MOD REPLACED : `和田栄太郎 / わだえいたろう` --> `和田英太郎 / わだえいたろう`
     edition: [3]
-    kanji: "和田栄太郎"
+    kanji: "和田英太郎"
     kana: "わだえいたろう"
     romaji: "wadaeitarō"
     meaning: {
       en: "Wada Eitaro: Japanese earth scientist. 1939-."
     }
-    norm: {word: "和田栄太郎", reading: "わだえいたろう", display: "和田栄太郎", display_reading: "わだえいたろう", pos: n, kind: name}
+    norm: {word: "和田英太郎", reading: "わだえいたろう", display: "和田英太郎", display_reading: "わだえいたろう", pos: n, kind: name}
   - id: [23, 183]
     edition: [3]
     kanji: "秋田"
@@ -29739,6 +29802,7 @@ lesson-23:
     }
     norm: {word: "シェークスピア", reading: "しぇーくすぴあ", display: "シェークスピア", display_reading: "しぇーくすぴあ", pos: n, kind: name}
   - id: [23, 185]
+    # !MOD REPLACED : `norm.exclude: no-reading` --> `title ハムレット / はむれっと`
     edition: [3]
     kanji: ~
     kana: "「ハムレット」"
@@ -29746,7 +29810,7 @@ lesson-23:
     meaning: {
       en: "‘Hamlet’: One of Shakespeare’s four great tragedies."
     }
-    norm: {exclude: no-reading}
+    norm: {word: "ハムレット", reading: "はむれっと", display: "ハムレット", display_reading: "はむれっと", pos: n, kind: title}
   - id: [23, 186]
     edition: [3]
     kanji: "慶應義塾大学"
@@ -30451,14 +30515,15 @@ lesson-24:
     }
     norm: {word: "win-win", reading: "うぃんうぃん", display: "win-winな", display_reading: "うぃんうぃんな", pos: adj-na, kind: word}
   - id: [24, 73]
+    # !MOD REPLACED : `be profoundly impressed` --> `deep impression; be deeply impressed [感銘を受ける]`
     edition: [3]
-    kanji: "感銘［する］"
-    kana: "かんめい［する］"
-    romaji: "kanmei [suru]"
+    kanji: "感銘［を受ける］"
+    kana: "かんめい［をうける］"
+    romaji: "kanmei (o ukeru)"
     meaning: {
-      en: "be profoundly impressed"
+      en: "deep impression; be deeply impressed [感銘を受ける]"
     }
-    norm: {word: "感銘", reading: "かんめい", display: "感銘する", display_reading: "かんめいする", pos: vs, kind: word}
+    norm: {word: "感銘", reading: "かんめい", display: "感銘を受ける", display_reading: "かんめいをうける", pos: n, kind: word}
   - id: [24, 74]
     edition: [3]
     kanji: "弊社"
@@ -31494,3 +31559,150 @@ lesson-24:
       en: "Giacomo Puccini: Italian composer. Composer of Madame Butterfly. 1858-1924."
     }
     norm: {word: "プッチーニ", reading: "ぷっちーに", display: "プッチーニ", display_reading: "ぷっちーに", pos: n, kind: name}
+
+supplements: [{key: "supplement-extra-grammar", id: 0, title: "Extra Grammatical Notes"}]
+supplement-extra-grammar:
+  - {id: [0, 1], edition: [3], kanji: 当日, kana: とうじつ, romaji: toujitsu, meaning: {en: 'the actual day, that day'}, norm: {word: 当日, reading: とうじつ, display: 当日, display_reading: とうじつ, pos: n, kind: word}}
+  - {id: [0, 2], edition: [3], kanji: 水不足, kana: みずぶそく, romaji: mizubusoku, meaning: {en: water shortage}, norm: {word: 水不足, reading: みずぶそく, display: 水不足, display_reading: みずぶそく, pos: n, kind: word}}
+  - {id: [0, 3], edition: [3], kanji: 制限［する］, kana: せいげん［する］, romaji: seigen［suru］, meaning: {en: restrict}, norm: {word: 制限, reading: せいげん, display: 制限する, display_reading: せいげんする, pos: vs, kind: word}}
+  - {id: [0, 4], edition: [3], kanji: null, kana: みな／みんな, romaji: mina／minna, meaning: {en: all}, norm: {split: [{word: 皆, reading: みな, display: 皆, display_reading: みな, pos: pn, kind: word}, {word: 皆, reading: みんな, display: 皆, display_reading: みんな, pos: pn, kind: word}]}}
+  - {id: [0, 5], edition: [3], kanji: 移民［する］, kana: いみん［する］, romaji: imin［suru］, meaning: {en: immigrate}, norm: {word: 移民, reading: いみん, display: 移民する, display_reading: いみんする, pos: vs, kind: word}}
+  - {id: [0, 6], edition: [3], kanji: 人権, kana: じんけん, romaji: jinken, meaning: {en: human rights}, norm: {word: 人権, reading: じんけん, display: 人権, display_reading: じんけん, pos: n, kind: word}}
+  - {id: [0, 7], edition: [3], kanji: 最低, kana: さいてい, romaji: saitei, meaning: {en: at least}, norm: {word: 最低, reading: さいてい, display: 最低, display_reading: さいてい, pos: adv, kind: word}}
+  - {id: [0, 8], edition: [3], kanji: 欠席［する］, kana: けっせき［する］, romaji: kesseki［suru］, meaning: {en: fail to attend}, norm: {word: 欠席, reading: けっせき, display: 欠席する, display_reading: けっせきする, pos: vs, kind: word}}
+  - {id: [0, 9], edition: [3], kanji: 和菓子, kana: わがし, romaji: wagashi, meaning: {en: Japanese-style confectionery}, norm: {word: 和菓子, reading: わがし, display: 和菓子, display_reading: わがし, pos: n, kind: word}}
+  - {id: [0, 10], edition: [3], kanji: 割引［～料金］, kana: わりびき［～りょうきん］, romaji: waribiki［～ryoukin］, meaning: {en: 'discount [prices]'}, norm: {word: 割引, reading: わりびき, display: 割引料金, display_reading: わりびきりょうきん, pos: n, kind: word}}
+  - {id: [0, 11], edition: [3], kanji: 休館, kana: きゅうかん, romaji: kyuukan, meaning: {en: 'closure (of a museum, library, etc.)'}, norm: {word: 休館, reading: きゅうかん, display: 休館, display_reading: きゅうかん, pos: n, kind: word}}
+  - {id: [0, 12], edition: [3], kanji: null, kana: クリニック, romaji: kurinikku, meaning: {en: clinic}, norm: {word: クリニック, reading: くりにっく, display: クリニック, display_reading: くりにっく, pos: n, kind: word}}
+  - {id: [0, 13], edition: [3], kanji: 診療科, kana: しんりょうか, romaji: shinryouka, meaning: {en: hospital department}, norm: {word: 診療科, reading: しんりょうか, display: 診療科, display_reading: しんりょうか, pos: n, kind: word}}
+  - {id: [0, 14], edition: [3], kanji: 総合病院, kana: そうごうびょういん, romaji: sougoubyouin, meaning: {en: general hospital}, norm: {word: 総合病院, reading: そうごうびょういん, display: 総合病院, display_reading: そうごうびょういん, pos: n, kind: word}}
+  - {id: [0, 15], edition: [3], kanji: 病状, kana: びょうじょう, romaji: byoujou, meaning: {en: medical condition}, norm: {word: 病状, reading: びょうじょう, display: 病状, display_reading: びょうじょう, pos: n, kind: word}}
+  - {id: [0, 16], edition: [3], kanji: 無口［な］, kana: むくち［な］, romaji: mukuchi［na］, meaning: {en: quiet}, norm: {word: 無口, reading: むくち, display: 無口な, display_reading: むくちな, pos: adj-na, kind: word}}
+  - {id: [0, 17], edition: [3], kanji: 楽観的［な］, kana: らっかんてき［な］, romaji: rakkanteki［na］, meaning: {en: optimistic}, norm: {word: 楽観的, reading: らっかんてき, display: 楽観的な, display_reading: らっかんてきな, pos: adj-na, kind: word}}
+  - {id: [0, 18], edition: [3], kanji: 農村, kana: のうそん, romaji: nouson, meaning: {en: farming village}, norm: {word: 農村, reading: のうそん, display: 農村, display_reading: のうそん, pos: n, kind: word}}
+  - {id: [0, 19], edition: [3], kanji: null, kana: プライド, romaji: puraido, meaning: {en: pride}, norm: {word: プライド, reading: ぷらいど, display: プライド, display_reading: ぷらいど, pos: n, kind: word}}
+  - {id: [0, 20], edition: [3], kanji: 傷つきやすい, kana: きずつきやすい, romaji: kizutsukiyasui, meaning: {en: easily hurt}, norm: {word: 傷つきやすい, reading: きずつきやすい, display: 傷つきやすい, display_reading: きずつきやすい, pos: adj-i, kind: word}}
+  - {id: [0, 21], edition: [3], kanji: null, kana: ハンドバッグ, romaji: handobaggu, meaning: {en: handbag}, norm: {word: ハンドバッグ, reading: はんどばっぐ, display: ハンドバッグ, display_reading: はんどばっぐ, pos: n, kind: word}}
+  - {id: [0, 22], edition: [3], kanji: 昨晩, kana: さくばん, romaji: sakuban, meaning: {en: last night}, norm: {word: 昨晩, reading: さくばん, display: 昨晩, display_reading: さくばん, pos: n, kind: word}}
+  - {id: [0, 23], edition: [3], kanji: 職場, kana: しょくば, romaji: shokuba, meaning: {en: place of work}, norm: {word: 職場, reading: しょくば, display: 職場, display_reading: しょくば, pos: n, kind: word}}
+  - {id: [0, 24], edition: [3], kanji: 寝不足, kana: ねぶそく, romaji: nebusoku, meaning: {en: lack of sleep}, norm: {word: 寝不足, reading: ねぶそく, display: 寝不足, display_reading: ねぶそく, pos: n, kind: word}}
+  - {id: [0, 25], edition: [3], kanji: null, kana: ダイヤ, romaji: daiya, meaning: {en: train schedule}, norm: {word: ダイヤ, reading: だいや, display: ダイヤ, display_reading: だいや, pos: n, kind: word}}
+  - {id: [0, 26], edition: [3], kanji: 大幅［な］, kana: おおはば［な］, romaji: oohaba［na］, meaning: {en: severe}, norm: {word: 大幅, reading: おおはば, display: 大幅な, display_reading: おおはばな, pos: adj-na, kind: word}}
+  - {id: [0, 27], edition: [3], kanji: 乱れる, kana: みだれる, romaji: midareru, meaning: {en: be in disarray}, norm: {word: 乱れる, reading: みだれる, display: 乱れる, display_reading: みだれる, pos: v1, kind: word}}
+  - {id: [0, 28], edition: [3], kanji: null, kana: はやる, romaji: hayaru, meaning: {en: be raging (epidemic)}, norm: {word: はやる, reading: はやる, display: はやる, display_reading: はやる, pos: v5, kind: word}}
+  - {id: [0, 29], edition: [3], kanji: 待合室, kana: まちあいしつ, romaji: machiaishitsu, meaning: {en: waiting room}, norm: {word: 待合室, reading: まちあいしつ, display: 待合室, display_reading: まちあいしつ, pos: n, kind: word}}
+  - {id: [0, 30], edition: [3], kanji: 混雑［する］, kana: こんざつ［する］, romaji: konzatsu［suru］, meaning: {en: be crowded}, norm: {word: 混雑, reading: こんざつ, display: 混雑する, display_reading: こんざつする, pos: vs, kind: word}}
+  - {id: [0, 31], edition: [3], kanji: 市内, kana: しない, romaji: shinai, meaning: {en: within the city; city area}, norm: {word: 市内, reading: しない, display: 市内, display_reading: しない, pos: n, kind: word}}
+  - {id: [0, 32], edition: [3], kanji: 直行便, kana: ちょっこうびん, romaji: chokkoubin, meaning: {en: 'direct (bus, flight, etc.)'}, norm: {word: 直行便, reading: ちょっこうびん, display: 直行便, display_reading: ちょっこうびん, pos: n, kind: word}}
+  - {id: [0, 33], edition: [3], kanji: 百薬, kana: ひゃくやく, romaji: hyakuyaku, meaning: {en: 'all medicines; all kinds of medicine [as in 百薬の長]'}, norm: {word: 百薬, reading: ひゃくやく, display: 百薬, display_reading: ひゃくやく, pos: n, kind: word}}
+  - {id: [0, 34], edition: [3], kanji: 退院［する］, kana: たいいん［する］, romaji: taiin［suru］, meaning: {en: be discharged from hospital}, norm: {word: 退院, reading: たいいん, display: 退院する, display_reading: たいいんする, pos: vs, kind: word}}
+  - {id: [0, 35], edition: [3], kanji: 止む, kana: やむ, romaji: yamu, meaning: {en: stop}, norm: {word: 止む, reading: やむ, display: 止む, display_reading: やむ, pos: v5, kind: word}}
+  - {id: [0, 36], edition: [3], kanji: 観客, kana: かんきゃく, romaji: kankyaku, meaning: {en: 'person attending (a concert, show, etc.), audience'}, norm: {word: 観客, reading: かんきゃく, display: 観客, display_reading: かんきゃく, pos: n, kind: word}}
+  - {id: [0, 37], edition: [3], kanji: 未成年, kana: みせいねん, romaji: miseinen, meaning: {en: under age}, norm: {word: 未成年, reading: みせいねん, display: 未成年, display_reading: みせいねん, pos: n, kind: word}}
+  - {id: [0, 38], edition: [3], kanji: 一人暮らし, kana: ひとりぐらし, romaji: hitorigurashi, meaning: {en: living on one's own}, norm: {word: 一人暮らし, reading: ひとりぐらし, display: 一人暮らし, display_reading: ひとりぐらし, pos: n, kind: word}}
+  - {id: [0, 39], edition: [3], kanji: 批判［する］, kana: ひはん［する］, romaji: hihan［suru］, meaning: {en: criticize}, norm: {word: 批判, reading: ひはん, display: 批判する, display_reading: ひはんする, pos: vs, kind: word}}
+  - {id: [0, 40], edition: [3], kanji: 横になる, kana: よこになる, romaji: yokoninaru, meaning: {en: lie down}, norm: {word: 横になる, reading: よこになる, display: 横になる, display_reading: よこになる, pos: exp, kind: expression}}
+  - {id: [0, 41], edition: [3], kanji: 宝石, kana: ほうせき, romaji: houseki, meaning: {en: gem}, norm: {word: 宝石, reading: ほうせき, display: 宝石, display_reading: ほうせき, pos: n, kind: word}}
+  - {id: [0, 42], edition: [3], kanji: 言い当てる, kana: いいあてる, romaji: iiateru, meaning: {en: guess}, norm: {word: 言い当てる, reading: いいあてる, display: 言い当てる, display_reading: いいあてる, pos: v1, kind: word}}
+  - {id: [0, 43], edition: [3], kanji: 言い終わる, kana: いいおわる, romaji: iiowaru, meaning: {en: finish saying}, norm: {word: 言い終わる, reading: いいおわる, display: 言い終わる, display_reading: いいおわる, pos: v5, kind: word}}
+  - {id: [0, 44], edition: [3], kanji: 申請［する］, kana: しんせい［する］, romaji: shinsei［suru］, meaning: {en: apply}, norm: {word: 申請, reading: しんせい, display: 申請する, display_reading: しんせいする, pos: vs, kind: word}}
+  - {id: [0, 45], edition: [3], kanji: ボトム・アップ方式, kana: ボトム・アップほうしき, romaji: botomu・appuhoushiki, meaning: {en: bottom-up approach}, norm: {word: ボトム・アップ方式, reading: ぼとむ・あっぷほうしき, display: ボトム・アップ方式, display_reading: ぼとむ・あっぷほうしき, pos: n, kind: word}}
+  - {id: [0, 46], edition: [3], kanji: 方式, kana: ほうしき, romaji: houshiki, meaning: {en: 'approach, method'}, norm: {word: 方式, reading: ほうしき, display: 方式, display_reading: ほうしき, pos: n, kind: word}}
+  - {id: [0, 47], edition: [3], kanji: null, kana: ついでに, romaji: tsuideni, meaning: {en: while at it}, norm: {word: ついでに, reading: ついでに, display: ついでに, display_reading: ついでに, pos: adv, kind: word}}
+  - {id: [0, 48], edition: [3], kanji: 保つ, kana: たもつ, romaji: tamotsu, meaning: {en: maintain}, norm: {word: 保つ, reading: たもつ, display: 保つ, display_reading: たもつ, pos: v5, kind: word}}
+  - {id: [0, 49], edition: [3], kanji: 周囲, kana: しゅうい, romaji: shuui, meaning: {en: the people around one}, norm: {word: 周囲, reading: しゅうい, display: 周囲, display_reading: しゅうい, pos: n, kind: word}}
+  - {id: [0, 50], edition: [3], kanji: 抱きしめる, kana: だきしめる, romaji: dakishimeru, meaning: {en: hug closely}, norm: {word: 抱きしめる, reading: だきしめる, display: 抱きしめる, display_reading: だきしめる, pos: v1, kind: word}}
+  - {id: [0, 51], edition: [3], kanji: 代わる, kana: かわる, romaji: kawaru, meaning: {en: replace}, norm: {word: 代わる, reading: かわる, display: 代わる, display_reading: かわる, pos: v5, kind: word}}
+  - {id: [0, 52], edition: [3], kanji: 燃料, kana: ねんりょう, romaji: nenryou, meaning: {en: fuel}, norm: {word: 燃料, reading: ねんりょう, display: 燃料, display_reading: ねんりょう, pos: n, kind: word}}
+  - {id: [0, 53], edition: [3], kanji: 支援者, kana: しえんしゃ, romaji: shiensha, meaning: {en: supporter}, norm: {word: 支援者, reading: しえんしゃ, display: 支援者, display_reading: しえんしゃ, pos: n, kind: word}}
+  - {id: [0, 54], edition: [3], kanji: 声援［する］, kana: せいえん［する］, romaji: seien［suru］, meaning: {en: cheer}, norm: {word: 声援, reading: せいえん, display: 声援する, display_reading: せいえんする, pos: vs, kind: word}}
+  - {id: [0, 55], edition: [3], kanji: 先立つ, kana: さきだつ, romaji: sakidatsu, meaning: {en: precede}, norm: {word: 先立つ, reading: さきだつ, display: 先立つ, display_reading: さきだつ, pos: v5, kind: word}}
+  - {id: [0, 56], edition: [3], kanji: 両家, kana: りょうけ, romaji: ryouke, meaning: {en: both families}, norm: {word: 両家, reading: りょうけ, display: 両家, display_reading: りょうけ, pos: n, kind: word}}
+  - {id: [0, 57], edition: [3], kanji: 親族, kana: しんぞく, romaji: shinzoku, meaning: {en: relatives}, norm: {word: 親族, reading: しんぞく, display: 親族, display_reading: しんぞく, pos: n, kind: word}}
+  - {id: [0, 58], edition: [3], kanji: 起業［する］, kana: きぎょう［する］, romaji: kigyou［suru］, meaning: {en: start a business}, norm: {word: 起業, reading: きぎょう, display: 起業する, display_reading: きぎょうする, pos: vs, kind: word}}
+  - {id: [0, 59], edition: [3], kanji: 食生活, kana: しょくせいかつ, romaji: shokuseikatsu, meaning: {en: diet}, norm: {word: 食生活, reading: しょくせいかつ, display: 食生活, display_reading: しょくせいかつ, pos: n, kind: word}}
+  - {id: [0, 60], edition: [3], kanji: 成人病, kana: せいじんびょう, romaji: seijinbyou, meaning: {en: lifestyle-related illness}, norm: {word: 成人病, reading: せいじんびょう, display: 成人病, display_reading: せいじんびょう, pos: n, kind: word}}
+  - {id: [0, 61], edition: [3], kanji: 治療［する］, kana: ちりょう［する］, romaji: chiryou［suru］, meaning: {en: treat}, norm: {word: 治療, reading: ちりょう, display: 治療する, display_reading: ちりょうする, pos: vs, kind: word}}
+  - {id: [0, 62], edition: [3], kanji: 統廃合, kana: とうはいごう, romaji: touhaigou, meaning: {en: closure and merging}, norm: {word: 統廃合, reading: とうはいごう, display: 統廃合, display_reading: とうはいごう, pos: n, kind: word}}
+  - {id: [0, 63], edition: [3], kanji: 都市整備, kana: としせいび, romaji: toshiseibi, meaning: {en: urban development}, norm: {word: 都市整備, reading: としせいび, display: 都市整備, display_reading: としせいび, pos: n, kind: word}}
+  - {id: [0, 64], edition: [3], kanji: 急ピッチ, kana: きゅうピッチ, romaji: kyuupicchi, meaning: {en: rapid}, norm: {word: 急ピッチ, reading: きゅうぴっち, display: 急ピッチ, display_reading: きゅうぴっち, pos: n, kind: word}}
+  - {id: [0, 65], edition: [3], kanji: 実話, kana: じつわ, romaji: jitsuwa, meaning: {en: true story}, norm: {word: 実話, reading: じつわ, display: 実話, display_reading: じつわ, pos: n, kind: word}}
+  - {id: [0, 66], edition: [3], kanji: null, kana: さんざん［な］, romaji: sanzan［na］, meaning: {en: terrible}, norm: {word: さんざん, reading: さんざん, display: さんざんな, display_reading: さんざんな, pos: adj-na, kind: word}}
+  - {id: [0, 67], edition: [3], kanji: 賃貸, kana: ちんたい, romaji: chintai, meaning: {en: rental}, norm: {word: 賃貸, reading: ちんたい, display: 賃貸, display_reading: ちんたい, pos: n, kind: word}}
+  - {id: [0, 68], edition: [3], kanji: 免除［する］, kana: めんじょ［する］, romaji: menjo［suru］, meaning: {en: exempt}, norm: {word: 免除, reading: めんじょ, display: 免除する, display_reading: めんじょする, pos: vs, kind: word}}
+  - {id: [0, 69], edition: [3], kanji: 暗算［する］, kana: あんざん［する］, romaji: anzan［suru］, meaning: {en: do mental arithmetic}, norm: {word: 暗算, reading: あんざん, display: 暗算する, display_reading: あんざんする, pos: vs, kind: word}}
+  - {id: [0, 70], edition: [3], kanji: null, kana: スピード, romaji: supi-do, meaning: {en: speed}, norm: {word: スピード, reading: すぴーど, display: スピード, display_reading: すぴーど, pos: n, kind: word}}
+  - {id: [0, 71], edition: [3], kanji: 反する, kana: はんする, romaji: hansuru, meaning: {en: run counter to}, norm: {word: 反する, reading: はんする, display: 反する, display_reading: はんする, pos: vs, kind: word}}
+  - {id: [0, 72], edition: [3], kanji: null, kana: マニフェスト, romaji: manifesuto, meaning: {en: manifesto}, norm: {word: マニフェスト, reading: まにふぇすと, display: マニフェスト, display_reading: まにふぇすと, pos: n, kind: word}}
+  - {id: [0, 73], edition: [3], kanji: 掲げる, kana: かかげる, romaji: kakageru, meaning: {en: declare}, norm: {word: 掲げる, reading: かかげる, display: 掲げる, display_reading: かかげる, pos: v1, kind: word}}
+  - {id: [0, 74], edition: [3], kanji: 堅苦しい, kana: かたくるしい, romaji: katakurushii, meaning: {en: formal}, norm: {word: 堅苦しい, reading: かたくるしい, display: 堅苦しい, display_reading: かたくるしい, pos: adj-i, kind: word}}
+  - {id: [0, 75], edition: [3], kanji: null, kana: ざっくばらん［な］, romaji: zakkubaran［na］, meaning: {en: frank}, norm: {word: ざっくばらん, reading: ざっくばらん, display: ざっくばらんな, display_reading: ざっくばらんな, pos: adj-na, kind: word}}
+  - {id: [0, 76], edition: [3], kanji: null, kana: ワサビ, romaji: wasabi, meaning: {en: wasabi}, norm: {word: ワサビ, reading: わさび, display: ワサビ, display_reading: わさび, pos: n, kind: word}}
+  - {id: [0, 77], edition: [3], kanji: 車種, kana: しゃしゅ, romaji: shashu, meaning: {en: model (of a vehicle)}, norm: {word: 車種, reading: しゃしゅ, display: 車種, display_reading: しゃしゅ, pos: n, kind: word}}
+  - {id: [0, 78], edition: [3], kanji: 問う, kana: とう, romaji: tou, meaning: {en: inquire}, norm: {word: 問う, reading: とう, display: 問う, display_reading: とう, pos: v5, kind: word}}
+  - {id: [0, 79], edition: [3], kanji: 高額, kana: こうがく, romaji: kougaku, meaning: {en: high price}, norm: {word: 高額, reading: こうがく, display: 高額, display_reading: こうがく, pos: n, kind: word}}
+  - {id: [0, 80], edition: [3], kanji: 買い取り, kana: かいとり, romaji: kaitori, meaning: {en: buy}, norm: {word: 買い取り, reading: かいとり, display: 買い取り, display_reading: かいとり, pos: n, kind: word}}
+  - {id: [0, 81], edition: [3], kanji: 停滞［する］, kana: ていたい［する］, romaji: teitai［suru］, meaning: {en: stagnate}, norm: {word: 停滞, reading: ていたい, display: 停滞する, display_reading: ていたいする, pos: vs, kind: word}}
+  - {id: [0, 82], edition: [3], kanji: 中心, kana: ちゅうしん, romaji: chuushin, meaning: {en: center}, norm: {word: 中心, reading: ちゅうしん, display: 中心, display_reading: ちゅうしん, pos: n, kind: word}}
+  - {id: [0, 83], edition: [3], kanji: 理系, kana: りけい, romaji: rikei, meaning: {en: science}, norm: {word: 理系, reading: りけい, display: 理系, display_reading: りけい, pos: n, kind: word}}
+  - {id: [0, 84], edition: [3], kanji: 学部, kana: がくぶ, romaji: gakubu, meaning: {en: faculty}, norm: {word: 学部, reading: がくぶ, display: 学部, display_reading: がくぶ, pos: n, kind: word}}
+  - {id: [0, 85], edition: [3], kanji: 墓地, kana: ぼち, romaji: bochi, meaning: {en: cemetery; graveyard}, norm: {word: 墓地, reading: ぼち, display: 墓地, display_reading: ぼち, pos: n, kind: word}}
+  - {id: [0, 86], edition: [3], kanji: null, kana: めぐる, romaji: meguru, meaning: {en: 'be about, be over'}, norm: {word: 巡る, reading: めぐる, display: 巡る, display_reading: めぐる, pos: v5, kind: word}}
+  - {id: [0, 87], edition: [3], kanji: 長男, kana: ちょうなん, romaji: chounan, meaning: {en: eldest son}, norm: {word: 長男, reading: ちょうなん, display: 長男, display_reading: ちょうなん, pos: n, kind: word}}
+  - {id: [0, 88], edition: [3], kanji: 次男, kana: じなん, romaji: jinan, meaning: {en: second eldest son}, norm: {word: 次男, reading: じなん, display: 次男, display_reading: じなん, pos: n, kind: word}}
+  - {id: [0, 89], edition: [3], kanji: 法廷, kana: ほうてい, romaji: houtei, meaning: {en: court}, norm: {word: 法廷, reading: ほうてい, display: 法廷, display_reading: ほうてい, pos: n, kind: word}}
+  - {id: [0, 90], edition: [3], kanji: 争う, kana: あらそう, romaji: arasou, meaning: {en: 'fight, contest'}, norm: {word: 争う, reading: あらそう, display: 争う, display_reading: あらそう, pos: v5, kind: word}}
+  - {id: [0, 91], edition: [3], kanji: 何事, kana: なにごと, romaji: nanigoto, meaning: {en: everything}, norm: {word: 何事, reading: なにごと, display: 何事, display_reading: なにごと, pos: n, kind: word}}
+  - {id: [0, 92], edition: [3], kanji: 真心, kana: まごころ, romaji: magokoro, meaning: {en: sincerity}, norm: {word: 真心, reading: まごころ, display: 真心, display_reading: まごころ, pos: n, kind: word}}
+  - {id: [0, 93], edition: [3], kanji: 合計, kana: ごうけい, romaji: goukei, meaning: {en: total}, norm: {word: 合計, reading: ごうけい, display: 合計, display_reading: ごうけい, pos: n, kind: word}}
+  - {id: [0, 94], edition: [3], kanji: 就職活動, kana: しゅうしょくかつどう, romaji: shuushokukatsudou, meaning: {en: job hunting}, norm: {word: 就職活動, reading: しゅうしょくかつどう, display: 就職活動, display_reading: しゅうしょくかつどう, pos: n, kind: word, same_as: [24, 141]}}
+  - {id: [0, 95], edition: [3], kanji: null, kana: ぺらぺら, romaji: perapera, meaning: {en: fluently}, norm: {word: ぺらぺら, reading: ぺらぺら, display: ぺらぺら, display_reading: ぺらぺら, pos: adv, kind: word}}
+  - {id: [0, 96], edition: [3], kanji: 万能, kana: ばんのう, romaji: bannou, meaning: {en: 'superwoman/superman, all-rounder'}, norm: {word: 万能, reading: ばんのう, display: 万能, display_reading: ばんのう, pos: adj-na, kind: word}}
+  - {id: [0, 97], edition: [3], kanji: 必修科目, kana: ひっしゅうかもく, romaji: hisshuukamoku, meaning: {en: required subject}, norm: {word: 必修科目, reading: ひっしゅうかもく, display: 必修科目, display_reading: ひっしゅうかもく, pos: n, kind: word}}
+  - {id: [0, 98], edition: [3], kanji: 必修, kana: ひっしゅう, romaji: hisshuu, meaning: {en: compulsory}, norm: {word: 必修, reading: ひっしゅう, display: 必修, display_reading: ひっしゅう, pos: n, kind: word}}
+  - {id: [0, 99], edition: [3], kanji: 単位, kana: たんい, romaji: tani, meaning: {en: credit}, norm: {word: 単位, reading: たんい, display: 単位, display_reading: たんい, pos: n, kind: word}}
+  - {id: [0, 100], edition: [3], kanji: null, kana: チヂミ, romaji: chijimi, meaning: {en: chijimi (Korean vegetable pancake)}, norm: {word: チヂミ, reading: ちぢみ, display: チヂミ, display_reading: ちぢみ, pos: n, kind: word}}
+  - {id: [0, 101], edition: [3], kanji: 戦前, kana: せんぜん, romaji: senzen, meaning: {en: pre-war}, norm: {word: 戦前, reading: せんぜん, display: 戦前, display_reading: せんぜん, pos: n, kind: word}}
+  - {id: [0, 102], edition: [3], kanji: 公表［する］, kana: こうひょう［する］, romaji: kouhyou［suru］, meaning: {en: announce publicly}, norm: {word: 公表, reading: こうひょう, display: 公表する, display_reading: こうひょうする, pos: vs, kind: word}}
+  - {id: [0, 103], edition: [3], kanji: 夕食, kana: ゆうしょく, romaji: yuushoku, meaning: {en: supper}, norm: {word: 夕食, reading: ゆうしょく, display: 夕食, display_reading: ゆうしょく, pos: n, kind: word}}
+  - {id: [0, 104], edition: [3], kanji: 次回, kana: じかい, romaji: jikai, meaning: {en: next time}, norm: {word: 次回, reading: じかい, display: 次回, display_reading: じかい, pos: n, kind: word}}
+  - {id: [0, 105], edition: [3], kanji: 校外学習, kana: こうがいがくしゅう, romaji: kougaigakushuu, meaning: {en: off-campus learning; school field trip}, norm: {word: 校外学習, reading: こうがいがくしゅう, display: 校外学習, display_reading: こうがいがくしゅう, pos: n, kind: word}}
+  - {id: [0, 106], edition: [3], kanji: 定休日, kana: ていきゅうび, romaji: teikyuubi, meaning: {en: regular closing day}, norm: {word: 定休日, reading: ていきゅうび, display: 定休日, display_reading: ていきゅうび, pos: n, kind: word}}
+  - {id: [0, 107], edition: [3], kanji: 集い, kana: つどい, romaji: tsudoi, meaning: {en: gathering}, norm: {word: 集い, reading: つどい, display: 集い, display_reading: つどい, pos: n, kind: word}}
+  - {id: [0, 108], edition: [3], kanji: 気, kana: き, romaji: ki, meaning: {en: spirit}, norm: {word: 気, reading: き, display: 気, display_reading: き, pos: n, kind: word}}
+  - {id: [0, 109], edition: [3], kanji: null, kana: まね, romaji: mane, meaning: {en: copying}, norm: {word: まね, reading: まね, display: まね, display_reading: まね, pos: n, kind: word}}
+  - {id: [0, 110], edition: [3], kanji: コーヒー豆, kana: こーひーまめ, romaji: ko-hi-mame, meaning: {en: coffee bean}, norm: {word: コーヒー豆, reading: こーひーまめ, display: コーヒー豆, display_reading: こーひーまめ, pos: n, kind: word}}
+  - {id: [0, 111], edition: [3], kanji: 豆, kana: まめ, romaji: mame, meaning: {en: bean}, norm: {word: 豆, reading: まめ, display: 豆, display_reading: まめ, pos: n, kind: word}}
+  - {id: [0, 112], edition: [3], kanji: 傷だらけ, kana: きずだらけ, romaji: kizudarake, meaning: {en: covered in scratches}, norm: {word: 傷だらけ, reading: きずだらけ, display: 傷だらけ, display_reading: きずだらけ, pos: n, kind: word}}
+  - {id: [0, 113], edition: [3], kanji: 案, kana: あん, romaji: an, meaning: {en: plan}, norm: {word: 案, reading: あん, display: 案, display_reading: あん, pos: n, kind: word}}
+  - {id: [0, 114], edition: [3], kanji: 熱っぽい, kana: ねつっぽい, romaji: netsuppoi, meaning: {en: slightly feverish}, norm: {word: 熱っぽい, reading: ねつっぽい, display: 熱っぽい, display_reading: ねつっぽい, pos: adj-i, kind: word}}
+  - {id: [0, 115], edition: [3], kanji: 放送局, kana: ほうそうきょく, romaji: housoukyoku, meaning: {en: broadcasting station}, norm: {word: 放送局, reading: ほうそうきょく, display: 放送局, display_reading: ほうそうきょく, pos: n, kind: word}}
+  - {id: [0, 116], edition: [3], kanji: わが社, kana: わがしゃ, romaji: wagasha, meaning: {en: our company}, norm: {word: わが社, reading: わがしゃ, display: わが社, display_reading: わがしゃ, pos: n, kind: word}}
+  - {id: [0, 117], edition: [3], kanji: 金持ち, kana: かねもち, romaji: kanemochi, meaning: {en: rich person}, norm: {word: 金持ち, reading: かねもち, display: 金持ち, display_reading: かねもち, pos: n, kind: word}}
+  - {id: [0, 118], edition: [3], kanji: 漫才, kana: まんざい, romaji: manzai, meaning: {en: manzai (Japanese comic dialogue)}, norm: {word: 漫才, reading: まんざい, display: 漫才, display_reading: まんざい, pos: n, kind: word}}
+  - {id: [0, 119], edition: [3], kanji: null, kana: コンビ, romaji: konbi, meaning: {en: combination}, norm: {word: コンビ, reading: こんび, display: コンビ, display_reading: こんび, pos: n, kind: word}}
+  - {id: [0, 120], edition: [3], kanji: 一応, kana: いちおう, romaji: ichiou, meaning: {en: for the time being}, norm: {word: 一応, reading: いちおう, display: 一応, display_reading: いちおう, pos: adv, kind: word}}
+  - {id: [0, 121], edition: [3], kanji: 解ける, kana: とける, romaji: tokeru, meaning: {en: melt}, norm: {word: 解ける, reading: とける, display: 解ける, display_reading: とける, pos: v1, kind: word}}
+  - {id: [0, 122], edition: [3], kanji: 渇く, kana: かわく, romaji: kawaku, meaning: {en: become thirsty}, norm: {word: 渇く, reading: かわく, display: 渇く, display_reading: かわく, pos: v5, kind: word}}
+  - {id: [0, 123], edition: [3], kanji: 祈る, kana: いのる, romaji: inoru, meaning: {en: pray}, norm: {word: 祈る, reading: いのる, display: 祈る, display_reading: いのる, pos: v5, kind: word}}
+  - {id: [0, 124], edition: [3], kanji: 立地［～条件］, kana: りっち［～じょうけん］, romaji: ricchi［～jouken］, meaning: {en: 'location [conditions]'}, norm: {word: 立地, reading: りっち, display: 立地条件, display_reading: りっちじょうけん, pos: n, kind: word}}
+  - {id: [0, 125], edition: [3], kanji: 週休, kana: しゅうきゅう, romaji: shuukyuu, meaning: {en: weekly holiday}, norm: {word: 週休, reading: しゅうきゅう, display: 週休, display_reading: しゅうきゅう, pos: n, kind: word}}
+  - {id: [0, 126], edition: [3], kanji: ～制, kana: ～せい, romaji: ～sei, meaning: {en: ～ system}, norm: {word: 制, reading: せい, display: ～制, display_reading: ～せい, pos: suf, kind: suffix}}
+  - {id: [0, 127], edition: [3], kanji: 国家, kana: こっか, romaji: kokka, meaning: {en: nation}, norm: {word: 国家, reading: こっか, display: 国家, display_reading: こっか, pos: n, kind: word}}
+  - {id: [0, 128], edition: [3], kanji: 劣る, kana: おとる, romaji: otoru, meaning: {en: be inferior; fall short}, norm: {word: 劣る, reading: おとる, display: 劣る, display_reading: おとる, pos: v5, kind: word}}
+  - {id: [0, 129], edition: [3], kanji: 迷路, kana: めいろ, romaji: meiro, meaning: {en: maze}, norm: {word: 迷路, reading: めいろ, display: 迷路, display_reading: めいろ, pos: n, kind: word}}
+  - {id: [0, 130], edition: [3], kanji: 一面, kana: いちめん, romaji: ichimen, meaning: {en: all over}, norm: {word: 一面, reading: いちめん, display: 一面, display_reading: いちめん, pos: adv, kind: word}}
+  - {id: [0, 131], edition: [3], kanji: 見張る, kana: みはる, romaji: miharu, meaning: {en: watch over}, norm: {word: 見張る, reading: みはる, display: 見張る, display_reading: みはる, pos: v5, kind: word}}
+  - {id: [0, 132], edition: [3], kanji: null, kana: ライフスタイル, romaji: raifusutairu, meaning: {en: lifestyle}, norm: {word: ライフスタイル, reading: らいふすたいる, display: ライフスタイル, display_reading: らいふすたいる, pos: n, kind: word}}
+  - {id: [0, 133], edition: [3], kanji: 身勝手［な］, kana: みがって［な］, romaji: migatte［na］, meaning: {en: selfish}, norm: {word: 身勝手, reading: みがって, display: 身勝手な, display_reading: みがってな, pos: adj-na, kind: word}}
+  - {id: [0, 134], edition: [3], kanji: 勝手［な］, kana: かって［な］, romaji: katte［na］, meaning: {en: selfish}, norm: {word: 勝手, reading: かって, display: 勝手な, display_reading: かってな, pos: adj-na, kind: word}}
+  - {id: [0, 135], edition: [3], kanji: 定期的［な］, kana: ていきてき［な］, romaji: teikiteki［na］, meaning: {en: regular}, norm: {word: 定期的, reading: ていきてき, display: 定期的な, display_reading: ていきてきな, pos: adj-na, kind: word}}
+  - {id: [0, 136], edition: [3], kanji: 肥料, kana: ひりょう, romaji: hiryou, meaning: {en: fertilizer}, norm: {word: 肥料, reading: ひりょう, display: 肥料, display_reading: ひりょう, pos: n, kind: word}}
+  - {id: [0, 137], edition: [3], kanji: 顔色, kana: かおいろ, romaji: kaoiro, meaning: {en: '(face) color'}, norm: {word: 顔色, reading: かおいろ, display: 顔色, display_reading: かおいろ, pos: n, kind: word}}
+  - {id: [0, 138], edition: [3], kanji: 食べかけ, kana: たべかけ, romaji: tabekake, meaning: {en: half-eaten}, norm: {word: 食べかけ, reading: たべかけ, display: 食べかけ, display_reading: たべかけ, pos: n, kind: word}}
+  - {id: [0, 139], edition: [3], kanji: 氷, kana: こおり, romaji: koori, meaning: {en: ice}, norm: {word: 氷, reading: こおり, display: 氷, display_reading: こおり, pos: n, kind: word}}
+  - {id: [0, 140], edition: [3], kanji: null, kana: やりぬく, romaji: yarinuku, meaning: {en: carry through; persevere to the end}, norm: {word: やり抜く, reading: やりぬく, display: やり抜く, display_reading: やりぬく, pos: v5, kind: word}}
+  - {id: [0, 141], edition: [3], kanji: 政治犯, kana: せいじはん, romaji: seijihan, meaning: {en: political criminal}, norm: {word: 政治犯, reading: せいじはん, display: 政治犯, display_reading: せいじはん, pos: n, kind: word}}
+  - {id: [0, 142], edition: [3], kanji: 逮捕［する］, kana: たいほ［する］, romaji: taiho［suru］, meaning: {en: arrest}, norm: {word: 逮捕, reading: たいほ, display: 逮捕する, display_reading: たいほする, pos: vs, kind: word}}
+  - {id: [0, 143], edition: [3], kanji: 強いる, kana: しいる, romaji: shiiru, meaning: {en: force}, norm: {word: 強いる, reading: しいる, display: 強いる, display_reading: しいる, pos: v1, kind: word}}
+  - {id: [0, 144], edition: [3], kanji: 見事［に］, kana: みごと［に］, romaji: migoto［ni］, meaning: {en: wonderfully}, norm: {word: 見事, reading: みごと, display: 見事に, display_reading: みごとに, pos: adj-na, kind: word}}
