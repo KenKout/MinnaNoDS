@@ -1536,6 +1536,7 @@ lesson-02:
     }
     norm: {word: "普通に", reading: "ふつうに", display: "普通に", display_reading: "ふつうに", pos: adv, kind: word}
   - id: [2, 69]
+    # !MOD REPLACED : `いまさら` --> `今更`
     edition: [3]
     kanji: ~
     kana: "いまさら"
@@ -1543,7 +1544,7 @@ lesson-02:
     meaning: {
       en: "at this stage; now (too late)"
     }
-    norm: {word: "いまさら", reading: "いまさら", display: "いまさら", display_reading: "いまさら", pos: adv, kind: word}
+    norm: {word: "今更", reading: "いまさら", display: "今更", display_reading: "いまさら", pos: adv, kind: word}
   - id: [2, 70]
     edition: [3]
     kanji: "必要"
@@ -7034,6 +7035,7 @@ lesson-09:
 
 lesson-10:
   - id: [10, 1]
+    # !MOD REPLACED : `もうける` --> `儲ける`
     edition: [3]
     kanji: "もうける［お金を～］"
     kana: "もうける［おかねを～］"
@@ -7041,7 +7043,7 @@ lesson-10:
     meaning: {
       en: "make [money], earn"
     }
-    norm: {word: "もうける", reading: "もうける", display: "お金をもうける", display_reading: "おかねをもうける", pos: v1, kind: word}
+    norm: {word: "儲ける", reading: "もうける", display: "お金を儲ける", display_reading: "おかねをもうける", pos: v1, kind: word}
   - id: [10, 2]
     edition: [3]
     kanji: "見かける"
@@ -10200,6 +10202,7 @@ lesson-13:
     }
     norm: {word: "書き入れる", reading: "かきいれる", display: "書き入れる", display_reading: "かきいれる", pos: v1, kind: word}
   - id: [13, 85]
+    # !MOD REPLACED : `かまわない` --> `構わない`
     edition: [3]
     kanji: ~
     kana: "かまわない"
@@ -10207,7 +10210,7 @@ lesson-13:
     meaning: {
       en: "doesn't matter"
     }
-    norm: {word: "かまわない", reading: "かまわない", display: "かまわない", display_reading: "かまわない", pos: exp, kind: expression}
+    norm: {word: "構わない", reading: "かまわない", display: "構わない", display_reading: "かまわない", pos: exp, kind: expression}
   - id: [13, 86]
     edition: [3]
     kanji: "書き留める"
@@ -12004,6 +12007,7 @@ lesson-14:
     }
     norm: {word: "話し手", reading: "はなして", display: "話し手", display_reading: "はなして", pos: n, kind: word}
   - id: [14, 83]
+    # !MOD REPLACED : `あいづち` --> `相槌`
     edition: [3]
     kanji: ~
     kana: "あいづち"
@@ -12011,7 +12015,7 @@ lesson-14:
     meaning: {
       en: "response"
     }
-    norm: {word: "あいづち", reading: "あいづち", display: "あいづち", display_reading: "あいづち", pos: n, kind: word}
+    norm: {word: "相槌", reading: "あいづち", display: "相槌", display_reading: "あいづち", pos: n, kind: word}
   - id: [14, 84]
     edition: [3]
     kanji: "打つ［あいづちを～］"
@@ -12499,6 +12503,7 @@ lesson-14:
     }
     norm: {word: "ちまき", reading: "ちまき", display: "ちまき", display_reading: "ちまき", pos: n, kind: word}
   - id: [14, 138]
+    # !MOD REPLACED : `かしわもち` --> `柏餅`
     edition: [3]
     kanji: ~
     kana: "かしわもち"
@@ -12506,7 +12511,7 @@ lesson-14:
     meaning: {
       en: "rice cake wrapped in an oak leaf"
     }
-    norm: {word: "かしわもち", reading: "かしわもち", display: "かしわもち", display_reading: "かしわもち", pos: n, kind: word}
+    norm: {word: "柏餅", reading: "かしわもち", display: "柏餅", display_reading: "かしわもち", pos: n, kind: word}
   - id: [14, 139]
     edition: [3]
     kanji: "受賞者"
@@ -13700,6 +13705,7 @@ lesson-15:
     }
     norm: {word: "チーム", reading: "ちーむ", display: "チーム", display_reading: "ちーむ", pos: n, kind: word}
   - id: [15, 32]
+    # !MOD REPLACED : `からめる` --> `絡める`
     edition: [3]
     kanji: ~
     kana: "からめる"
@@ -13707,7 +13713,7 @@ lesson-15:
     meaning: {
       en: "become a contender"
     }
-    norm: {word: "からめる", reading: "からめる", display: "からめる", display_reading: "からめる", pos: v1, kind: word}
+    norm: {word: "絡める", reading: "からめる", display: "絡める", display_reading: "からめる", pos: v1, kind: word}
   - id: [15, 33]
     edition: [3]
     kanji: "法則"
@@ -17715,6 +17721,7 @@ lesson-17:
     }
     norm: {word: "回避", reading: "かいひ", display: "回避する", display_reading: "かいひする", pos: n, kind: word}
   - id: [17, 70]
+    # !MOD REPLACED : `もくろむ` --> `目論む`
     edition: [3]
     kanji: ~
     kana: "もくろむ"
@@ -17722,7 +17729,7 @@ lesson-17:
     meaning: {
       en: "plan"
     }
-    norm: {word: "もくろむ", reading: "もくろむ", display: "もくろむ", display_reading: "もくろむ", pos: v5, kind: word}
+    norm: {word: "目論む", reading: "もくろむ", display: "目論む", display_reading: "もくろむ", pos: v5, kind: word}
   - id: [17, 71]
     edition: [3]
     kanji: "作成［する］"
@@ -17814,6 +17821,7 @@ lesson-17:
     }
     norm: {word: "邪魔", reading: "じゃま", display: "邪魔する", display_reading: "じゃまする", pos: n, kind: word}
   - id: [17, 81]
+    # !MOD REPLACED : `おかまい` --> `お構い`
     edition: [3]
     kanji: ~
     kana: "おかまい"
@@ -17821,7 +17829,7 @@ lesson-17:
     meaning: {
       en: "hospitality"
     }
-    norm: {word: "おかまい", reading: "おかまい", display: "おかまい", display_reading: "おかまい", pos: n, kind: word}
+    norm: {word: "お構い", reading: "おかまい", display: "お構い", display_reading: "おかまい", pos: n, kind: word}
   - id: [17, 82]
     edition: [3]
     kanji: ~
@@ -18301,6 +18309,7 @@ lesson-17:
     }
     norm: {word: "稼ぐ", reading: "かせぐ", display: "稼ぐ", display_reading: "かせぐ", pos: v5, kind: word}
   - id: [17, 135]
+    # !MOD REPLACED : `あきれる` --> `呆れる`
     edition: [3]
     kanji: ~
     kana: "あきれる"
@@ -18308,7 +18317,7 @@ lesson-17:
     meaning: {
       en: "be astonished"
     }
-    norm: {word: "あきれる", reading: "あきれる", display: "あきれる", display_reading: "あきれる", pos: v1, kind: word}
+    norm: {word: "呆れる", reading: "あきれる", display: "呆れる", display_reading: "あきれる", pos: v1, kind: word}
   - id: [17, 136]
     edition: [3]
     kanji: "素人"
@@ -18418,6 +18427,7 @@ lesson-17:
     }
     norm: {word: "着替える", reading: "きがえる", display: "着替える", display_reading: "きがえる", pos: v1, kind: word}
   - id: [17, 148]
+    # !MOD REPLACED : `しゃくりあげる` --> `しゃくり上げる`
     edition: [3]
     kanji: ~
     kana: "しゃくりあげる"
@@ -18425,7 +18435,7 @@ lesson-17:
     meaning: {
       en: "sob convulsively"
     }
-    norm: {word: "しゃくりあげる", reading: "しゃくりあげる", display: "しゃくりあげる", display_reading: "しゃくりあげる", pos: v1, kind: word}
+    norm: {word: "しゃくり上げる", reading: "しゃくりあげる", display: "しゃくり上げる", display_reading: "しゃくりあげる", pos: v1, kind: word}
   - id: [17, 149]
     edition: [3]
     kanji: "甘えん坊"
@@ -18925,6 +18935,7 @@ lesson-18:
     }
     norm: {word: "目を留める", reading: "めをとめる", display: "目を留める", display_reading: "めをとめる", pos: v1, kind: word}
   - id: [18, 16]
+    # !MOD REPLACED : `しょうゆさし` --> `醤油差し`
     edition: [3]
     kanji: ~
     kana: "しょうゆさし"
@@ -18932,7 +18943,7 @@ lesson-18:
     meaning: {
       en: "soy-sauce pot"
     }
-    norm: {word: "しょうゆさし", reading: "しょうゆさし", display: "しょうゆさし", display_reading: "しょうゆさし", pos: n, kind: word}
+    norm: {word: "醤油差し", reading: "しょうゆさし", display: "醤油差し", display_reading: "しょうゆさし", pos: n, kind: word}
   - id: [18, 17]
     edition: [3]
     kanji: "食塩"
@@ -19568,6 +19579,7 @@ lesson-18:
     }
     norm: {word: "中断", reading: "ちゅうだん", display: "中断する", display_reading: "ちゅうだんする", pos: vs, kind: word}
   - id: [18, 87]
+    # !MOD REPLACED : `のぞく` --> `覗く`
     edition: [3]
     kanji: ~
     kana: "のぞく"
@@ -19575,7 +19587,7 @@ lesson-18:
     meaning: {
       en: "peer at"
     }
-    norm: {word: "のぞく", reading: "のぞく", display: "のぞく", display_reading: "のぞく", pos: v5, kind: word}
+    norm: {word: "覗く", reading: "のぞく", display: "覗く", display_reading: "のぞく", pos: v5, kind: word}
   - id: [18, 88]
     edition: [3]
     kanji: ~
@@ -24057,6 +24069,7 @@ lesson-21:
     }
     norm: {word: "上流", reading: "じょうりゅう", display: "上流", display_reading: "じょうりゅう", pos: n, kind: word}
   - id: [21, 22]
+    # !MOD REPLACED : `くむ` --> `汲む`
     edition: [3]
     kanji: ~
     kana: "くむ［水を～］"
@@ -24064,7 +24077,7 @@ lesson-21:
     meaning: {
       en: "draw [water]"
     }
-    norm: {word: "くむ", reading: "くむ", display: "水をくむ", display_reading: "みずをくむ", pos: v5, kind: word}
+    norm: {word: "汲む", reading: "くむ", display: "水を汲む", display_reading: "みずをくむ", pos: v5, kind: word}
   - id: [21, 23]
     edition: [3]
     kanji: "早飛脚"
@@ -24219,6 +24232,7 @@ lesson-21:
     }
     norm: {word: "決めつける", reading: "きめつける", display: "決めつける", display_reading: "きめつける", pos: v1, kind: word}
   - id: [21, 40]
+    # !MOD REPLACED : `あおりたてる` --> `煽り立てる`
     edition: [3]
     kanji: ~
     kana: "あおりたてる"
@@ -24226,7 +24240,7 @@ lesson-21:
     meaning: {
       en: "stir up"
     }
-    norm: {word: "あおりたてる", reading: "あおりたてる", display: "あおりたてる", display_reading: "あおりたてる", pos: v1, kind: word}
+    norm: {word: "煽り立てる", reading: "あおりたてる", display: "煽り立てる", display_reading: "あおりたてる", pos: v1, kind: word}
   - id: [21, 41]
     edition: [3]
     kanji: "確実［な］"
@@ -26086,6 +26100,7 @@ lesson-22:
     }
     norm: {word: "生", reading: "せい", display: "生", display_reading: "せい", pos: n, kind: word}
   - id: [22, 36]
+    # !MOD REPLACED : `さらす` --> `晒す`
     edition: [3]
     kanji: ~
     kana: "さらす"
@@ -26093,7 +26108,7 @@ lesson-22:
     meaning: {
       en: "expose"
     }
-    norm: {word: "さらす", reading: "さらす", display: "さらす", display_reading: "さらす", pos: v5, kind: word}
+    norm: {word: "晒す", reading: "さらす", display: "晒す", display_reading: "さらす", pos: v5, kind: word}
   - id: [22, 37]
     edition: [3]
     kanji: "集約［する］"
@@ -28909,6 +28924,7 @@ lesson-23:
     }
     norm: {word: "啄木鳥", reading: "きつつき", display: "啄木鳥", display_reading: "きつつき", pos: n, kind: word}
   - id: [23, 86]
+    # !MOD REPLACED : `しっぽ` --> `尻尾`
     edition: [3]
     kanji: ~
     kana: "しっぽ"
@@ -28916,7 +28932,7 @@ lesson-23:
     meaning: {
       en: "tail"
     }
-    norm: {word: "しっぽ", reading: "しっぽ", display: "しっぽ", display_reading: "しっぽ", pos: n, kind: word}
+    norm: {word: "尻尾", reading: "しっぽ", display: "尻尾", display_reading: "しっぽ", pos: n, kind: word}
   - id: [23, 87]
     edition: [3]
     kanji: "羽毛"
@@ -31627,7 +31643,7 @@ supplement-extra-grammar:
   - {id: [0, 63], edition: [3], kanji: 都市整備, kana: としせいび, romaji: toshiseibi, meaning: {en: urban development}, norm: {word: 都市整備, reading: としせいび, display: 都市整備, display_reading: としせいび, pos: n, kind: word}}
   - {id: [0, 64], edition: [3], kanji: 急ピッチ, kana: きゅうピッチ, romaji: kyuupicchi, meaning: {en: rapid}, norm: {word: 急ピッチ, reading: きゅうぴっち, display: 急ピッチ, display_reading: きゅうぴっち, pos: n, kind: word}}
   - {id: [0, 65], edition: [3], kanji: 実話, kana: じつわ, romaji: jitsuwa, meaning: {en: true story}, norm: {word: 実話, reading: じつわ, display: 実話, display_reading: じつわ, pos: n, kind: word}}
-  - {id: [0, 66], edition: [3], kanji: null, kana: さんざん［な］, romaji: sanzan［na］, meaning: {en: terrible}, norm: {word: さんざん, reading: さんざん, display: さんざんな, display_reading: さんざんな, pos: adj-na, kind: word}}
+  - {id: [0, 66], edition: [3], kanji: null, kana: さんざん［な］, romaji: sanzan［na］, meaning: {en: terrible}, norm: {word: "散々", reading: さんざん, display: "散々な", display_reading: さんざんな, pos: adj-na, kind: word}}
   - {id: [0, 67], edition: [3], kanji: 賃貸, kana: ちんたい, romaji: chintai, meaning: {en: rental}, norm: {word: 賃貸, reading: ちんたい, display: 賃貸, display_reading: ちんたい, pos: n, kind: word}}
   - {id: [0, 68], edition: [3], kanji: 免除［する］, kana: めんじょ［する］, romaji: menjo［suru］, meaning: {en: exempt}, norm: {word: 免除, reading: めんじょ, display: 免除する, display_reading: めんじょする, pos: vs, kind: word}}
   - {id: [0, 69], edition: [3], kanji: 暗算［する］, kana: あんざん［する］, romaji: anzan［suru］, meaning: {en: do mental arithmetic}, norm: {word: 暗算, reading: あんざん, display: 暗算する, display_reading: あんざんする, pos: vs, kind: word}}
@@ -31670,7 +31686,7 @@ supplement-extra-grammar:
   - {id: [0, 106], edition: [3], kanji: 定休日, kana: ていきゅうび, romaji: teikyuubi, meaning: {en: regular closing day}, norm: {word: 定休日, reading: ていきゅうび, display: 定休日, display_reading: ていきゅうび, pos: n, kind: word}}
   - {id: [0, 107], edition: [3], kanji: 集い, kana: つどい, romaji: tsudoi, meaning: {en: gathering}, norm: {word: 集い, reading: つどい, display: 集い, display_reading: つどい, pos: n, kind: word}}
   - {id: [0, 108], edition: [3], kanji: 気, kana: き, romaji: ki, meaning: {en: spirit}, norm: {word: 気, reading: き, display: 気, display_reading: き, pos: n, kind: word}}
-  - {id: [0, 109], edition: [3], kanji: null, kana: まね, romaji: mane, meaning: {en: copying}, norm: {word: まね, reading: まね, display: まね, display_reading: まね, pos: n, kind: word}}
+  - {id: [0, 109], edition: [3], kanji: null, kana: まね, romaji: mane, meaning: {en: copying}, norm: {word: "真似", reading: まね, display: "真似", display_reading: まね, pos: n, kind: word}}
   - {id: [0, 110], edition: [3], kanji: コーヒー豆, kana: こーひーまめ, romaji: ko-hi-mame, meaning: {en: coffee bean}, norm: {word: コーヒー豆, reading: こーひーまめ, display: コーヒー豆, display_reading: こーひーまめ, pos: n, kind: word}}
   - {id: [0, 111], edition: [3], kanji: 豆, kana: まめ, romaji: mame, meaning: {en: bean}, norm: {word: 豆, reading: まめ, display: 豆, display_reading: まめ, pos: n, kind: word}}
   - {id: [0, 112], edition: [3], kanji: 傷だらけ, kana: きずだらけ, romaji: kizudarake, meaning: {en: covered in scratches}, norm: {word: 傷だらけ, reading: きずだらけ, display: 傷だらけ, display_reading: きずだらけ, pos: n, kind: word}}
